@@ -1,0 +1,14 @@
+{
+ "schema": "onedrive-folders-1.0",
+ "description": "Per-project OneDrive delivery target, resolved once via a real Microsoft Graph lookup (never guessed). Maps ProjectKey -> the drive_id/item_id of that project's Generated_TestCases folder. Populated by upload_to_onedrive.py on first successful delivery for a project; add a row by performing the same real lookup for a new project.",
+ "projects": {
+  "SAMP": {
+   "drive_id": "b!jpkPJqztsUWfZvLwkvmOIt1D5lwrSR1Po3ZpiYHpykvP4XwrpMm8RJUSbCNUtYyv",
+   "item_id": "01CZSDVRYEC6GXJS2E3ZD3MNL6F7ZYTQUE",
+   "path": "PS-Test Authoring/PS-Test Authoring/Generated_TestCases",
+   "owner": "dparekh@conga.com",
+   "resolved_via": "Microsoft Graph: GET /users/{owner}/drive, then /root/children, then nested folder traversal to Generated_TestCases",
+   "resolved_date": "2026-07-29"
+  }
+ }
+}
