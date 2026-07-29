@@ -1,0 +1,8 @@
+{
+ "schema": "project-registry-1.0",
+ "description": "Known projects for cross-project namespacing. A Test Case ID's project key (the {ProjectKey} in {ProjectKey}-{Story}-TC-{NNN}) must be an enabled project here. Validator check NS-02 warns on unregistered keys. Add a row when onboarding a new project or business unit.",
+ "projects": [
+  {"key": "SAMP", "name": "Sample / reference project", "business_unit": "PS", "jira_project": "SAMP", "enabled": true},
+  {"key": "CMCCBNP", "name": "CMCC Billing & Approvals", "business_unit": "PS", "jira_project": "CMCCBNP", "enabled": true}
+ ]
+}

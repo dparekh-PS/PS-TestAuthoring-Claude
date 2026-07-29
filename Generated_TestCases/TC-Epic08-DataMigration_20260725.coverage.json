@@ -1,0 +1,371 @@
+{
+ "schema": "coverage-1.0",
+ "workbook": "TC-Epic08-DataMigration_20260725.xlsx",
+ "features": [
+  {
+   "sheet": "DM001 Migrate Service Contracts",
+   "source": "Confluence Canon_DM_001 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "All service contracts with status Active or Inactive and end date greater than the cutover date are created as Conga Agreements.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_001 (ID placeholder CMCCBNP-8001) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-8001-TC-001",
+      "CMCCBNP-8001-TC-006",
+      "CMCCBNP-8001-TC-007",
+      "CMCCBNP-8001-TC-009"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Field mapping between Salesforce contract fields and Conga Agreement fields is completed and validated.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_001 (ID placeholder CMCCBNP-8001) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-8001-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Legacy contract number is stored on the Conga Agreement for traceability.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_001 (ID placeholder CMCCBNP-8001) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-8001-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Contract line items are migrated with coverage type, pricing, duration, and entitlement details intact.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_001 (ID placeholder CMCCBNP-8001) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-8001-TC-004",
+      "CMCCBNP-8001-TC-008"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Migrated contracts retain their existing product structure without bundle restructuring.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_001 (ID placeholder CMCCBNP-8001) > Acceptance Criteria (criterion 5)",
+     "covered_by": [
+      "CMCCBNP-8001-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DM002 Migrate Install Assets",
+   "source": "Confluence Canon_DM_002 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "All assets with status Installed, Installed and MU, or Created are migrated to Conga Assets.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_002 (ID placeholder CMCCBNP-8002) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-8002-TC-001",
+      "CMCCBNP-8002-TC-006"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Parent-child asset hierarchy is preserved.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_002 (ID placeholder CMCCBNP-8002) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-8002-TC-002",
+      "CMCCBNP-8002-TC-007"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Each asset is linked to the corresponding equipment site account.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_002 (ID placeholder CMCCBNP-8002) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-8002-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Custom fields such as software version, usage tracking, and serial number are mapped and populated.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_002 (ID placeholder CMCCBNP-8002) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-8002-TC-004",
+      "CMCCBNP-8002-TC-008"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "De-installed assets are excluded from migration and remain accessible in Salesforce.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_002 (ID placeholder CMCCBNP-8002) > Acceptance Criteria (criterion 5)",
+     "covered_by": [
+      "CMCCBNP-8002-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DM003 Migrate Attachments",
+   "source": "Confluence Canon_DM_003 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "All file attachments on migrated service contracts are transferred to the corresponding Conga Agreement record.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_003 (ID placeholder CMCCBNP-8003) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-8003-TC-001",
+      "CMCCBNP-8003-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Attachments on parent-level assets, where applicable, are migrated.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_003 (ID placeholder CMCCBNP-8003) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-8003-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "File integrity is validated after migration, including file count and size reconciliation.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_003 (ID placeholder CMCCBNP-8003) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-8003-TC-003",
+      "CMCCBNP-8003-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DM004 Historical Archive",
+   "source": "Confluence Canon_DM_004 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "A custom Salesforce object stores header and line-item details for all expired and terminated contracts.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_004 (ID placeholder CMCCBNP-8004) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-8004-TC-001",
+      "CMCCBNP-8004-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Internal notes and comments are included in the archive.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_004 (ID placeholder CMCCBNP-8004) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-8004-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Archived records are searchable by account, asset, and contract number.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_004 (ID placeholder CMCCBNP-8004) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-8004-TC-003",
+      "CMCCBNP-8004-TC-006"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Operations users have read access only; no transactional capability is required.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_004 (ID placeholder CMCCBNP-8004) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-8004-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DM005 Cancellation Integration",
+   "source": "Confluence Canon_DM_005 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Each migrated Conga Agreement stores the corresponding D365 contract number.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_005 (ID placeholder CMCCBNP-8005) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-8005-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "A cancellation trigger, such as a status change or checkbox, sends an outbound cancellation message to D365.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_005 (ID placeholder CMCCBNP-8005) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-8005-TC-002",
+      "CMCCBNP-8005-TC-006",
+      "CMCCBNP-8005-TC-007"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Pro-rated credit calculation is supported using contract line value and remaining term.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_005 (ID placeholder CMCCBNP-8005) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-8005-TC-003",
+      "CMCCBNP-8005-TC-008"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "The Conga Agreement status updates to Terminated upon cancellation.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_005 (ID placeholder CMCCBNP-8005) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-8005-TC-004"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Asset entitlements are cleared when the contract is terminated.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_005 (ID placeholder CMCCBNP-8005) > Acceptance Criteria (criterion 5)",
+     "covered_by": [
+      "CMCCBNP-8005-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DM006 Master Agreement Hier",
+   "source": "Confluence Canon_DM_006 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Master agreements are created in Conga with child agreements linked underneath, or individual agreements reference the legacy master contract number.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_006 (ID placeholder CMCCBNP-8006) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-8006-TC-001",
+      "CMCCBNP-8006-TC-004"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "A field on Conga Agreements allows entry of the master contract number for interim additions.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_006 (ID placeholder CMCCBNP-8006) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-8006-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "The master contract number flows through to D365 sales orders to support consolidated invoicing.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_006 (ID placeholder CMCCBNP-8006) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-8006-TC-003",
+      "CMCCBNP-8006-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DM007 Field Mapping Validation",
+   "source": "Confluence Canon_DM_007 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "All standard and custom fields on Salesforce assets, contracts, and contract line items are documented.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_007 (ID placeholder CMCCBNP-8007) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-8007-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Each field is mapped to a Conga field or flagged as requiring a custom field.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_007 (ID placeholder CMCCBNP-8007) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-8007-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Pre-migration data quality checks are performed for missing values and inconsistencies.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_007 (ID placeholder CMCCBNP-8007) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-8007-TC-003",
+      "CMCCBNP-8007-TC-005"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "A reconciliation report confirms record counts between source and target.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_007 (ID placeholder CMCCBNP-8007) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-8007-TC-004",
+      "CMCCBNP-8007-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DM008 Reconnect FSL Objects",
+   "source": "Confluence Canon_DM_008 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Maintenance plans are linked to corresponding Conga Assets.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_008 (ID placeholder CMCCBNP-8008) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-8008-TC-001",
+      "CMCCBNP-8008-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Cases, service appointments, and work orders reference Conga Asset records where required.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_008 (ID placeholder CMCCBNP-8008) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-8008-TC-002",
+      "CMCCBNP-8008-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Entitlements for field service discounting are functional against Conga Assets.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_008 (ID placeholder CMCCBNP-8008) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-8008-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Asset swap flow for serial-tracked part replacements works with Conga Assets.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_008 (ID placeholder CMCCBNP-8008) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-8008-TC-004",
+      "CMCCBNP-8008-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DM009 Legacy Product Mapping",
+   "source": "Confluence Canon_DM_009 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "A mapping table links each legacy service or warranty product to its Conga equivalent.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_009 (ID placeholder CMCCBNP-8009) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-8009-TC-001",
+      "CMCCBNP-8009-TC-004"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "The mapping is accessible to operations users during renewal quoting.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_009 (ID placeholder CMCCBNP-8009) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-8009-TC-002",
+      "CMCCBNP-8009-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "The mapping is validated through a test renewal in the sandbox environment.",
+     "anchor": "Confluence 'Epic 08 - Data Migration' (5046665221) > Canon_DM_009 (ID placeholder CMCCBNP-8009) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-8009-TC-003"
+     ]
+    }
+   ]
+  }
+ ]
+}

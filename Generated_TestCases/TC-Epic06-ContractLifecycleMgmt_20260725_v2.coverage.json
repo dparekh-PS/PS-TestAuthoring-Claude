@@ -1,0 +1,1006 @@
+{
+ "schema": "coverage-1.0",
+ "workbook": "TC-Epic06-ContractLifecycleMgmt_20260725_v2.xlsx",
+ "features": [
+  {
+   "sheet": "CLM001 Service Contract Config",
+   "source": "Jira CMCCBNP-87",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can configure contract generation to trigger from accepted quotes.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_001 (CMCCBNP-87) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-87-TC-101",
+      "CMCCBNP-87-TC-108"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can configure the system to include only warranty/Renewal service products in contract creation.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_001 (CMCCBNP-87) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-87-TC-102",
+      "CMCCBNP-87-TC-107"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can configure the system to exclude all finished goods from contract line items.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_001 (CMCCBNP-87) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-87-TC-102",
+      "CMCCBNP-87-TC-106",
+      "CMCCBNP-87-TC-107"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can ensure contract start and end dates are derived from warranty/Renewal service terms.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_001 (CMCCBNP-87) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-87-TC-103"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System generates service contracts only when eligible warranty/Renewal service products exist in the quote.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_001 (CMCCBNP-87) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-87-TC-104",
+      "CMCCBNP-87-TC-106"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "Service contract coverage for several systems' warranty/renewal service contracts are reflected in the same agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_001 (CMCCBNP-87) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-87-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM002 Auto Agreement Creation",
+   "source": "Jira CMCCBNP-88",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see the agreement created automatically from the proposal, once proposal is accepted.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_002 (CMCCBNP-88) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-88-TC-101",
+      "CMCCBNP-88-TC-106",
+      "CMCCBNP-88-TC-108"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can see account, opportunity, and proposal reference details copied into the agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_002 (CMCCBNP-88) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-88-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can see the agreement name defaulted based on the proposal.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_002 (CMCCBNP-88) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-88-TC-103"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can see eligible proposal line items (warranty/renewal service products) reflected as agreement line items.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_002 (CMCCBNP-88) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-88-TC-104",
+      "CMCCBNP-88-TC-107"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "System copies all configured fields accurately into the agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_002 (CMCCBNP-88) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-88-TC-105"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "System notifies me once the agreement is successfully created.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_002 (CMCCBNP-88) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-88-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM003 Consolidated Contract",
+   "source": "Jira CMCCBNP-89",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can add multiple warranty/renewal service products in one contract.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_003 (CMCCBNP-89) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-89-TC-101",
+      "CMCCBNP-89-TC-105"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see all services under one contract.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_003 (CMCCBNP-89) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-89-TC-102"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can manage all services in a single agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_003 (CMCCBNP-89) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-89-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System consolidates all warranty/renewal products into one contract.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_003 (CMCCBNP-89) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-89-TC-103",
+      "CMCCBNP-89-TC-105",
+      "CMCCBNP-89-TC-106"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Service contract coverage for several systems' warranty/renewal service contracts are reflected in the same agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_003 (CMCCBNP-89) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-89-TC-104",
+      "CMCCBNP-89-TC-106"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM004 Record Type Defaulting",
+   "source": "Jira CMCCBNP-90",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can configure agreement record type based on proposal type - New Sale, and Service Renewal.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_004 (CMCCBNP-90) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-90-TC-101",
+      "CMCCBNP-90-TC-106"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can configure default field values on the agreement from proposal, account, opportunity, order or contact as desired.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_004 (CMCCBNP-90) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-90-TC-102",
+      "CMCCBNP-90-TC-106"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System defaults record type automatically.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_004 (CMCCBNP-90) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-90-TC-103"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System populates predefined values.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_004 (CMCCBNP-90) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-90-TC-103"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can add validation to the agreement and/or agreement line item fields.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_004 (CMCCBNP-90) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-90-TC-104",
+      "CMCCBNP-90-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM005 Create Save Agreement",
+   "source": "Jira CMCCBNP-91",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can review agreement in edit mode.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_005 (CMCCBNP-91) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-91-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can populate required fields.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_005 (CMCCBNP-91) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-91-TC-102",
+      "CMCCBNP-91-TC-106"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can save the agreement successfully.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_005 (CMCCBNP-91) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-91-TC-102",
+      "CMCCBNP-91-TC-107",
+      "CMCCBNP-91-TC-108"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System validates mandatory fields before save.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_005 (CMCCBNP-91) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-91-TC-103",
+      "CMCCBNP-91-TC-106"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System prevents save if required fields are missing.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_005 (CMCCBNP-91) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-91-TC-103"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System saves agreement and updates status.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_005 (CMCCBNP-91) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-91-TC-102",
+      "CMCCBNP-91-TC-107"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "Service contract coverage for several systems' warranty/renewal service contracts are reflected in the same agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_005 (CMCCBNP-91) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-91-TC-104"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "Asset line item records for FG bundle product is correctly linked with the respective agreement records.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_005 (CMCCBNP-91) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-91-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM006 Lifecycle Stages Config",
+   "source": "Jira CMCCBNP-92",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can define Agreement lifecycle stages.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_006 (CMCCBNP-92) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-92-TC-101",
+      "CMCCBNP-92-TC-107"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view agreement stage on record.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_006 (CMCCBNP-92) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-92-TC-102"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can track stage progression.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_006 (CMCCBNP-92) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-92-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System sets initial stage as \"Request\".",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_006 (CMCCBNP-92) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-92-TC-103"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "The ootb stages can be modified to remove the non required stages from the chevron (e.g. In Authoring, In Approvals, In Signatures are not required).",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_006 (CMCCBNP-92) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-92-TC-104",
+      "CMCCBNP-92-TC-108"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "Other stages like Request, In Effect, Amended, Terminated, Expired are retained.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_006 (CMCCBNP-92) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-92-TC-105",
+      "CMCCBNP-92-TC-108"
+     ]
+    },
+    {
+     "id": "AC-f2",
+     "text": "System updates stage based on agreement lifecycle actions.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_006 (CMCCBNP-92) > Acceptance Criteria (f (second occurrence))",
+     "covered_by": [
+      "CMCCBNP-92-TC-106",
+      "CMCCBNP-92-TC-109"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM007 Search Agreements",
+   "source": "Jira CMCCBNP-93",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can search using agreement number.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_007 (CMCCBNP-93) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-93-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can search using agreement name.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_007 (CMCCBNP-93) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-93-TC-102"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can access agreements via global search.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_007 (CMCCBNP-93) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-93-TC-103",
+      "CMCCBNP-93-TC-105"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System indexes agreements for search.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_007 (CMCCBNP-93) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-93-TC-103"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System returns accurate results.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_007 (CMCCBNP-93) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-93-TC-102",
+      "CMCCBNP-93-TC-104",
+      "CMCCBNP-93-TC-106"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM008 Import Supporting Docs",
+   "source": "Jira CMCCBNP-94",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can upload one or more supporting documents to an agreement record.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_008 (CMCCBNP-94) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-94-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Supporting documents are stored separately from the primary agreement document where applicable.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_008 (CMCCBNP-94) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-94-TC-102"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Authorized users can view, download, reference, or remove supporting documents based on configured permissions.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_008 (CMCCBNP-94) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-94-TC-103",
+      "CMCCBNP-94-TC-106"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System validates file type, file size, and required metadata according to configured limits.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_008 (CMCCBNP-94) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-94-TC-105",
+      "CMCCBNP-94-TC-107"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Uploaded supporting documents are tracked in agreement document history/audit trail.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_008 (CMCCBNP-94) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-94-TC-104"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "Supporting documents remain associated with the agreement for reporting, review, and compliance purposes.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_008 (CMCCBNP-94) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-94-TC-104"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM009 Agreement Activation",
+   "source": "Jira CMCCBNP-95",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can manually activate an eligible agreement containing warranty service or renewal service products.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_009 (CMCCBNP-95) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-95-TC-101",
+      "CMCCBNP-95-TC-104"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Agreement status and status category are updated to Activated.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_009 (CMCCBNP-95) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-95-TC-101"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Service contract coverage for several systems' warranty/renewal service contracts are reflected in the same agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_009 (CMCCBNP-95) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-95-TC-102"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System prevents activation when mandatory key terms such as effective dates, value, or integration with D365 etc are missing.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_009 (CMCCBNP-95) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-95-TC-103",
+      "CMCCBNP-95-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM010 Agreement Cancellation",
+   "source": "Jira CMCCBNP-96",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can cancel a warranty/renewal service agreement that is still in a pre-activation lifecycle status.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_010 (CMCCBNP-96) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-96-TC-101",
+      "CMCCBNP-96-TC-105"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "System updates the agreement status and status category to Cancelled based on the configured lifecycle rules.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_010 (CMCCBNP-96) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-96-TC-101"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Cancelled agreements cannot proceed to activation, signature, renewal, amendment, or other active lifecycle actions unless reopened through an authorized process.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_010 (CMCCBNP-96) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-96-TC-104"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Cancellation reason or comments can be captured when required by the business process.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_010 (CMCCBNP-96) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-96-TC-102",
+      "CMCCBNP-96-TC-106"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Cancelled agreements remain available for reference, reporting, and audit purposes.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_010 (CMCCBNP-96) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-96-TC-103"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "Cancellation activity is recorded in agreement history/audit trail with user, date, reason, and status transition details.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_010 (CMCCBNP-96) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-96-TC-103"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM011 Agreement Termination",
+   "source": "Jira CMCCBNP-97",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can terminate an active warranty/renewal service agreement using the standard termination action or configured lifecycle process.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_011 (CMCCBNP-97) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-97-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can capture termination date, termination reason, and any required termination comments.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_011 (CMCCBNP-97) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-97-TC-102",
+      "CMCCBNP-97-TC-106"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System updates the agreement status and status category to Terminated according to configured lifecycle rules.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_011 (CMCCBNP-97) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-97-TC-101"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Terminated agreements are excluded from active agreement processing, active contract views, and downstream operational activities.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_011 (CMCCBNP-97) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-97-TC-103"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Termination details are visible for reporting, compliance review, and audit purposes.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_011 (CMCCBNP-97) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-97-TC-104"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System prevents termination for agreements that are not in an eligible status or where required termination information is missing.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_011 (CMCCBNP-97) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-97-TC-105",
+      "CMCCBNP-97-TC-106"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM012 Agreement Expiration",
+   "source": "Jira CMCCBNP-98",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "System automatically expires a warranty/renewal service agreement when the configured end date is reached and the agreement is eligible for expiry.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_012 (CMCCBNP-98) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-98-TC-101",
+      "CMCCBNP-98-TC-105",
+      "CMCCBNP-98-TC-106"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can manually expire an eligible agreement when business circumstances require it.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_012 (CMCCBNP-98) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-98-TC-102",
+      "CMCCBNP-98-TC-104"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Agreement status and status category are updated to Expired according to the configured agreement lifecycle.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_012 (CMCCBNP-98) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-98-TC-101",
+      "CMCCBNP-98-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Expired agreements are removed from active agreement processing while remaining available for historical reference.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_012 (CMCCBNP-98) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-98-TC-103"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM013 Amendment Config",
+   "source": "Jira CMCCBNP-99",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can enable amendment/versioning functionality for agreements.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_013 (CMCCBNP-99) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-99-TC-101",
+      "CMCCBNP-99-TC-108"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can define when amendment is allowed based on lifecycle status (e.g., Active/In Effect).",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_013 (CMCCBNP-99) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-99-TC-102",
+      "CMCCBNP-99-TC-107"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can handle changes like coverage type, coverage duration etc as part of the agreement amendment.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_013 (CMCCBNP-99) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-99-TC-103",
+      "CMCCBNP-99-TC-109"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can configure creation of a new version upon amendment.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_013 (CMCCBNP-99) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-99-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can define field and line item behavior during amendment.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_013 (CMCCBNP-99) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-99-TC-103"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures a new agreement version is created instead of overwriting the original.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_013 (CMCCBNP-99) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-99-TC-104"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "System ensures full version history is maintained with timestamps and users.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_013 (CMCCBNP-99) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-99-TC-105"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "System ensures only one active version exists at a time.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_013 (CMCCBNP-99) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-99-TC-106"
+     ]
+    },
+    {
+     "id": "AC-i",
+     "text": "System ensures amendment activity is tracked in audit trail.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_013 (CMCCBNP-99) > Acceptance Criteria (i)",
+     "covered_by": [
+      "CMCCBNP-99-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM014 Amend Create New Version",
+   "source": "Jira CMCCBNP-100",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can initiate amendment for an eligible agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_014 (CMCCBNP-100) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-100-TC-101",
+      "CMCCBNP-100-TC-106"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can create a new version of the agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_014 (CMCCBNP-100) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-100-TC-101"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can handle changes like coverage type, coverage duration etc as part of the agreement amendment.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_014 (CMCCBNP-100) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-100-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can view previous versions for reference.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_014 (CMCCBNP-100) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-100-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures existing agreement data is copied into the new version.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_014 (CMCCBNP-100) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-100-TC-103"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures linkage between original and amended versions.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_014 (CMCCBNP-100) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-100-TC-103"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "System ensures prior versions are read-only.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_014 (CMCCBNP-100) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-100-TC-104",
+      "CMCCBNP-100-TC-107"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "System ensures the latest version is marked as active upon completion.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_014 (CMCCBNP-100) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-100-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM015 Update via Amendment",
+   "source": "Jira CMCCBNP-101",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can update pricing for warranty/renewal/service agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_015 (CMCCBNP-101) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-101-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can update coverage details and attributes.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_015 (CMCCBNP-101) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-101-TC-102"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can update contract terms such as duration or service scope.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_015 (CMCCBNP-101) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-101-TC-103"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures validation of mandatory fields and constraints.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_015 (CMCCBNP-101) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-101-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures recalculation of totals after changes.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_015 (CMCCBNP-101) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-101-TC-101",
+      "CMCCBNP-101-TC-105"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures all updates are captured in version history.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_015 (CMCCBNP-101) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-101-TC-103"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM016 Renew via Renewal Quote",
+   "source": "Jira CMCCBNP-102",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can initiate renewal from an expiring or expired agreement via creating a renewal opportunity and a renewal quote.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_016 (CMCCBNP-102) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-102-TC-101",
+      "CMCCBNP-102-TC-105"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can create a renewed agreement record after renewal quote is accepted.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_016 (CMCCBNP-102) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-102-TC-102",
+      "CMCCBNP-102-TC-107"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can carry forward eligible warranty/renewal/service line items.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_016 (CMCCBNP-102) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-102-TC-103"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can update pricing, coverage, and terms for the renewal period.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_016 (CMCCBNP-102) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-102-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures a new agreement is created and linked to the original agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_016 (CMCCBNP-102) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-102-TC-102",
+      "CMCCBNP-102-TC-106"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures correct start and end dates are set for the renewed agreement.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_016 (CMCCBNP-102) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-102-TC-104"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM017 Expiry Notifications",
+   "source": "Jira CMCCBNP-103",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can configure notification rules for expiring agreements.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_017 (CMCCBNP-103) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-103-TC-101",
+      "CMCCBNP-103-TC-104"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can define notification recipients (Account Manager, Sales Manager).",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_017 (CMCCBNP-103) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-103-TC-102",
+      "CMCCBNP-103-TC-105"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures identification of agreements nearing expiry based on configured thresholds.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_017 (CMCCBNP-103) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-103-TC-103"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CLM018 Manage Renewals",
+   "source": "Jira CMCCBNP-104",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can view agreements nearing expiry date on agreements tab using ootb filtered view.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_018 (CMCCBNP-104) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-104-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can filter agreements by expiry date, account, or status.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_018 (CMCCBNP-104) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-104-TC-102",
+      "CMCCBNP-104-TC-106"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can access the agreement and initiate renewal from the record.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_018 (CMCCBNP-104) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-104-TC-103"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures accurate renewal eligibility status is displayed.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_018 (CMCCBNP-104) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-104-TC-103"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures visibility is role-based.",
+     "anchor": "Confluence 'Epic 06 - Contract Lifecycle Management' (5035556895) > Canon_CLM_018 (CMCCBNP-104) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-104-TC-104",
+      "CMCCBNP-104-TC-105"
+     ]
+    }
+   ]
+  }
+ ]
+}

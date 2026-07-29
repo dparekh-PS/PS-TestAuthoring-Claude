@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ps-testauthoring/_base/interchange.schema.json",
+  "title": "Normalized Requirement Representation (inter-skill interchange, v1)",
+  "description": "The owned, machine-checkable handoff object between skills. A producer skill (e.g. RequirementAnalysis) emits this from a source; a consumer skill (e.g. TestCaseAuthoring) reads it instead of re-parsing the source. Every acceptance criterion carries a source anchor so downstream coverage (the coverage ledger) is source-traceable end to end.",
+  "type": "object",
+  "required": ["schema", "source", "requirements"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": "interchange-1.0" },
+    "source": {
+      "type": "object",
+      "required": ["system", "ref"],
+      "additionalProperties": false,
+      "properties": {
+        "system": { "type": "string", "description": "e.g. jira, confluence, docx, pdf, text" },
+        "ref": { "type": "string", "description": "the source identifier, e.g. Jira key or page id" },
+        "url": { "type": "string" },
+        "fetched_at": { "type": "string" }
+      }
+    },
+    "requirements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "acceptance_criteria"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^R[0-9]+$", "description": "R01, R02, …" },
+          "title": { "type": "string" },
+          "text": { "type": "string" },
+          "acceptance_criteria": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "text", "anchor"],
+              "additionalProperties": false,
+              "properties": {
+                "id": { "type": "string", "description": "AC-1, AC-2, …" },
+                "text": { "type": "string", "description": "verbatim (or near-verbatim) AC text from the source" },
+                "anchor": { "type": "string", "description": "where in the source this AC came from: Jira field, Confluence section, doc heading" },
+                "inferred": { "type": "boolean", "default": false, "description": "true if not stated verbatim; must be surfaced as an Open Point" },
+                "business_rules": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          },
+          "actors": { "type": "array", "items": { "type": "string" } },
+          "workflows": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "open_points": { "type": "array", "items": { "type": "string" } },
+    "conflicts": { "type": "array", "items": { "type": "string" } }
+  }
+}

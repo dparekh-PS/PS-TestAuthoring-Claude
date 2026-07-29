@@ -1,0 +1,531 @@
+{
+ "schema": "coverage-1.0",
+ "workbook": "TC-Epic10-EmailCommunication_20260725.xlsx",
+ "features": [
+  {
+   "sheet": "EC001 Approval Request Email",
+   "source": "Jira CMCCBNP-314 (Canon_EC_001)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I receive an email notification when a quote/proposal approval request is assigned to me.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_001 (CMCCBNP-314) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-314-TC-001",
+      "CMCCBNP-314-TC-006"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see key approval and quote/proposal information in the email, such as Account Name, Opportunity Name, Quote/Proposal Name or Number etc.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_001 (CMCCBNP-314) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-314-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can access the My Approvals page or approval action link from the email where supported.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_001 (CMCCBNP-314) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-314-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can see clear instructions for approval/rejection actions, including email-based response where enabled.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_001 (CMCCBNP-314) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-314-TC-004"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Direct quote/proposal link inclusion is subject to confirmation during detailed configuration/design.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_001 (CMCCBNP-314) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-314-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC002 Reply-Based Approval",
+   "source": "Jira CMCCBNP-318 (Canon_EC_002)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can approve or reject an approval request by replying to the notification email using configured keywords such as Approve/Approved/Yes or Reject/Rejected/No.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_002 (CMCCBNP-318) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-318-TC-001",
+      "CMCCBNP-318-TC-002",
+      "CMCCBNP-318-TC-006"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can add approval or rejection comments in the email reply as per the supported reply format.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_002 (CMCCBNP-318) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-318-TC-003"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System updates the approval request status based on my valid email response.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_002 (CMCCBNP-318) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-318-TC-001",
+      "CMCCBNP-318-TC-002"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can see clear instructions for reply-based approval/rejection in the email template.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_002 (CMCCBNP-318) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-318-TC-004"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System does not process invalid or unsupported replies as approval actions.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_002 (CMCCBNP-318) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-318-TC-005",
+      "CMCCBNP-318-TC-007"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC003 Approved Notification",
+   "source": "Jira CMCCBNP-324 (Canon_EC_003)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I receive an email notification when my submitted quote/proposal is fully approved.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_003 (CMCCBNP-324) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-324-TC-001",
+      "CMCCBNP-324-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see key identifying information in the email such as Account Name, Opportunity Name, Quote/Proposal Name or Number etc.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_003 (CMCCBNP-324) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-324-TC-002",
+      "CMCCBNP-324-TC-006"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can access the relevant quote/proposal or approval context from a link in the email where supported.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_003 (CMCCBNP-324) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-324-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System sends the email to the submitter when the final approval is completed.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_003 (CMCCBNP-324) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-324-TC-001",
+      "CMCCBNP-324-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC004 Rejected Notification",
+   "source": "Jira CMCCBNP-317 (Canon_EC_004)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I receive an email notification when my submitted quote/proposal is rejected.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_004 (CMCCBNP-317) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-317-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see key identifying information in the email such as Account Name, Opportunity Name, Quote/Proposal Name or Number etc.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_004 (CMCCBNP-317) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-317-TC-002",
+      "CMCCBNP-317-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can access the relevant quote/proposal or approval context from a link in the email where supported.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_004 (CMCCBNP-317) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-317-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System sends the email to the submitter when an approval request is rejected.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_004 (CMCCBNP-317) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-317-TC-001",
+      "CMCCBNP-317-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC005 Recall Cancel Notice",
+   "source": "Jira CMCCBNP-320 (Canon_EC_005)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I receive an email notification when an approval request is recalled or cancelled.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_005 (CMCCBNP-320) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-320-TC-001",
+      "CMCCBNP-320-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can clearly identify that the approval request has been recalled/cancelled from the email content.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_005 (CMCCBNP-320) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-320-TC-002"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System sends the notification to relevant users based on the approval process configuration.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_005 (CMCCBNP-320) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-320-TC-003"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System Administrator can configure email content and branding through the cancellation/recall email template.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_005 (CMCCBNP-320) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-320-TC-004",
+      "CMCCBNP-320-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC006 Reassignment Notice",
+   "source": "Jira CMCCBNP-326 (Canon_EC_006)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I receive an email notification when an approval request is reassigned to me.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_006 (CMCCBNP-326) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-326-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see key quote/proposal and approval details in the email.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_006 (CMCCBNP-326) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-326-TC-002",
+      "CMCCBNP-326-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can access the relevant approval page/link from the email where supported.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_006 (CMCCBNP-326) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-326-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System sends the email to the newly assigned approver when an approval request is reassigned.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_006 (CMCCBNP-326) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-326-TC-001",
+      "CMCCBNP-326-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC007 Approval Reminder",
+   "source": "Jira CMCCBNP-322 (Canon_EC_007)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I receive reminder email notifications for pending approval requests after configured time thresholds e.g. 24 or 48 hours.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_007 (CMCCBNP-322) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-322-TC-001",
+      "CMCCBNP-322-TC-003",
+      "CMCCBNP-322-TC-004",
+      "CMCCBNP-322-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "System Administrator can configure reminder threshold, template content, and branding.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_007 (CMCCBNP-322) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-322-TC-002"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC008 Proposal Email Template",
+   "source": "Jira CMCCBNP-323 (Canon_EC_008)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can send a proposal email using a template that includes Canon Medical branding such as logo, header, footer, and standard sign-off.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_008 (CMCCBNP-323) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-323-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see the subject line pre-populated with configured fields such as proposal number, customer name, or proposal name.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_008 (CMCCBNP-323) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-323-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can see the salutation/body pre-populated using fields from the proposal/contact record, such as contact first name/surname.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_008 (CMCCBNP-323) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-323-TC-003",
+      "CMCCBNP-323-TC-006"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can review the email before sending it to the customer.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_008 (CMCCBNP-323) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-323-TC-004"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System Administrator can configure template text and merge fields.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_008 (CMCCBNP-323) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-323-TC-005",
+      "CMCCBNP-323-TC-007"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC009 Customise Proposal Email",
+   "source": "Jira CMCCBNP-316 (Canon_EC_009)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can open the proposal email using the configured email template.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_009 (CMCCBNP-316) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-316-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can edit the email subject before sending.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_009 (CMCCBNP-316) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-316-TC-002",
+      "CMCCBNP-316-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can edit the email body before sending.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_009 (CMCCBNP-316) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-316-TC-003",
+      "CMCCBNP-316-TC-005"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can override or adjust pre-populated text where editable.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_009 (CMCCBNP-316) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-316-TC-003"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System sends the final email to the customer reflecting my edits.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_009 (CMCCBNP-316) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-316-TC-004",
+      "CMCCBNP-316-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC010 Additional Recipients",
+   "source": "Jira CMCCBNP-325 (Canon_EC_010)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can include additional recipients when sending the proposal email.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_010 (CMCCBNP-325) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-325-TC-001",
+      "CMCCBNP-325-TC-003",
+      "CMCCBNP-325-TC-004",
+      "CMCCBNP-325-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "System sends the same proposal email with my final subject/body edits to all recipients.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_010 (CMCCBNP-325) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-325-TC-002"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC011 E-Sign Email Template",
+   "source": "Jira CMCCBNP-319 (Canon_EC_011)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see the subject line pre-populated with subject information.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_011 (CMCCBNP-319) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-319-TC-001",
+      "CMCCBNP-319-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see standard instructions for reviewing and signing the document in the email body.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_011 (CMCCBNP-319) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-319-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Customer receives a link to access the e-signature document.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_011 (CMCCBNP-319) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-319-TC-003",
+      "CMCCBNP-319-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC012 Customise E-Sign Email",
+   "source": "Jira CMCCBNP-321 (Canon_EC_012)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can review the e-signature email before sending.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_012 (CMCCBNP-321) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-321-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can modify the email subject before sending.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_012 (CMCCBNP-321) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-321-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can modify the email message/body before sending.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_012 (CMCCBNP-321) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-321-TC-003",
+      "CMCCBNP-321-TC-005"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System sends the final e-signature email to the customer reflecting my edits.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_012 (CMCCBNP-321) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-321-TC-004",
+      "CMCCBNP-321-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "EC013 Multiple E-Sign Recip",
+   "source": "Jira CMCCBNP-315 (Canon_EC_013)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can specify multiple signer email addresses for the e-signature request.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_013 (CMCCBNP-315) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-315-TC-001",
+      "CMCCBNP-315-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can add carbon copy recipients to the signature request.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_013 (CMCCBNP-315) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-315-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can set recipient sequencing/order where required by the e-signature process.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_013 (CMCCBNP-315) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-315-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System sends the document for signature to signers based on the configured signing flow.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_013 (CMCCBNP-315) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-315-TC-003"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System sends notification/copy to CC recipients as configured without requiring them to sign unless added as signers.",
+     "anchor": "Confluence 'Epic 10 - Email Communication' (5046698125) > Canon_EC_013 (CMCCBNP-315) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-315-TC-004",
+      "CMCCBNP-315-TC-006"
+     ]
+    }
+   ]
+  }
+ ]
+}

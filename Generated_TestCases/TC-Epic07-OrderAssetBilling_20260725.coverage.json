@@ -1,0 +1,1339 @@
+{
+ "schema": "coverage-1.0",
+ "workbook": "TC-Epic07-OrderAssetBilling_20260725.xlsx",
+ "features": [
+  {
+   "sheet": "OM001 Create Order from Prop",
+   "source": "Jira CMCCBNP-286",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can create an order from an accepted proposal.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-286-TC-001",
+      "CMCCBNP-286-TC-009"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view order number and order name.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-286-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can view order source as proposal/quote reference.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-286-TC-002"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can see the order linked to opportunity, proposal, and agreement where applicable.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-286-TC-003"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can view account details including Bill To, Ship To, and Sold To.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-286-TC-004"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "I can view primary contact associated with the order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-286-TC-004"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "I can view order type, currency and total order amount.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-286-TC-005"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "I can view order status (e.g., Pending, Activated).",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-286-TC-005"
+     ]
+    },
+    {
+     "id": "AC-i",
+     "text": "System ensures order creation is allowed only when proposal is in Accepted status.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (i)",
+     "covered_by": [
+      "CMCCBNP-286-TC-007"
+     ]
+    },
+    {
+     "id": "AC-j",
+     "text": "System ensures all order header details are copied and populated correctly from proposal where applicable.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_001 (CMCCBNP-286) > Acceptance Criteria (j)",
+     "covered_by": [
+      "CMCCBNP-286-TC-006",
+      "CMCCBNP-286-TC-008"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM002 Order Eligibility",
+   "source": "Jira CMCCBNP-287",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can identify the current proposal status.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_002 (CMCCBNP-287) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-287-TC-001",
+      "CMCCBNP-287-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can create order only when proposal is in Accepted status.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_002 (CMCCBNP-287) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-287-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures order creation is restricted for Draft, In Review, or Approved proposals.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_002 (CMCCBNP-287) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-287-TC-003",
+      "CMCCBNP-287-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM003 Copy Proposal to Order",
+   "source": "Jira CMCCBNP-288",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see account, opportunity, and proposal reference in the order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_003 (CMCCBNP-288) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-288-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see Bill-to, Ship-to, Sold-to details copied to the order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_003 (CMCCBNP-288) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-288-TC-002",
+      "CMCCBNP-288-TC-007"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can see pricing details such as totals reflected in the order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_003 (CMCCBNP-288) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-288-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures all mapped fields are copied accurately.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_003 (CMCCBNP-288) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-288-TC-004",
+      "CMCCBNP-288-TC-005",
+      "CMCCBNP-288-TC-006"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures no manual re-entry is required.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_003 (CMCCBNP-288) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-288-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM004 Manage Order Line Items",
+   "source": "Jira CMCCBNP-289",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can view product name for each order line item.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-289-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view charge type for each product (e.g., one-time or recurring).",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-289-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can view billing frequency for recurring products (e.g., monthly, yearly).",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-289-TC-002",
+      "CMCCBNP-289-TC-008"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can view start date and end date for each order line item.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-289-TC-002"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can view quantity for each line item.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-289-TC-002"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "I can view unit price and list price for each product.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-289-TC-003"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "I can view net unit price for each product.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-289-TC-003"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "I can view net price calculated based on quantity and net unit price.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-289-TC-003",
+      "CMCCBNP-289-TC-006"
+     ]
+    },
+    {
+     "id": "AC-i",
+     "text": "I can view line status for each order line item (e.g., Pending, Activated).",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (i)",
+     "covered_by": [
+      "CMCCBNP-289-TC-004"
+     ]
+    },
+    {
+     "id": "AC-j",
+     "text": "I can identify product classification (e.g., finished goods, warranty/service product).",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (j)",
+     "covered_by": [
+      "CMCCBNP-289-TC-001"
+     ]
+    },
+    {
+     "id": "AC-k",
+     "text": "I can identify line type such as product or service.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (k)",
+     "covered_by": [
+      "CMCCBNP-289-TC-001"
+     ]
+    },
+    {
+     "id": "AC-l",
+     "text": "System ensures all order line-item details are carried from the accepted proposal accurately.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (l)",
+     "covered_by": [
+      "CMCCBNP-289-TC-005"
+     ]
+    },
+    {
+     "id": "AC-m",
+     "text": "System ensures lifecycle status is assigned and updated appropriately (e.g., Pending to Activated).",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_004 (CMCCBNP-289) > Acceptance Criteria (m)",
+     "covered_by": [
+      "CMCCBNP-289-TC-004",
+      "CMCCBNP-289-TC-007"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM005 Preserve Bundle Structure",
+   "source": "Jira CMCCBNP-290",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see finished goods represented as primary bundle in the FG order, and the service product as the primary bundle in the post-initial-warranty order and renewal service order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_005 (CMCCBNP-290) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-290-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see options belonging to the respective product bundles correctly reflected in the order line items in each order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_005 (CMCCBNP-290) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-290-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures warranty/service products are structured within the bundle and not treated as standalone unless applicable, in case of FG bundle.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_005 (CMCCBNP-290) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-290-TC-003",
+      "CMCCBNP-290-TC-004",
+      "CMCCBNP-290-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM006 Multi-Location Orders",
+   "source": "Jira CMCCBNP-291",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see multiple account locations in the order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_006 (CMCCBNP-291) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-291-TC-001",
+      "CMCCBNP-291-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can identify and assign location for each product line item.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_006 (CMCCBNP-291) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-291-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can see location data carried from proposal location records.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_006 (CMCCBNP-291) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-291-TC-002"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures each order line item is mapped to the correct customer location.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_006 (CMCCBNP-291) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-291-TC-003",
+      "CMCCBNP-291-TC-005",
+      "CMCCBNP-291-TC-006"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures location mapping from proposal is preserved accurately in the order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_006 (CMCCBNP-291) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-291-TC-003"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures all products are assigned to valid locations before order processing.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_006 (CMCCBNP-291) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-291-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM007 Bill To Ship To Accounts",
+   "source": "Jira CMCCBNP-292",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can view Bill-to and Ship-to accounts in the order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_007 (CMCCBNP-292) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-292-TC-001",
+      "CMCCBNP-292-TC-003"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can confirm address details.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_007 (CMCCBNP-292) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-292-TC-001",
+      "CMCCBNP-292-TC-004"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures account details are copied from proposal.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_007 (CMCCBNP-292) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-292-TC-002"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM008 Pricing Consistency",
+   "source": "Jira CMCCBNP-293",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see total amount and net amount at the order level.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_008 (CMCCBNP-293) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-293-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see pricing for each order line item including unit price, net unit price, and net price.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_008 (CMCCBNP-293) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-293-TC-002",
+      "CMCCBNP-293-TC-007"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can verify that order pricing matches the accepted proposal values.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_008 (CMCCBNP-293) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-293-TC-003",
+      "CMCCBNP-293-TC-006"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can see price list associated with the order and order line items.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_008 (CMCCBNP-293) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-293-TC-002"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures all pricing details are carried from the accepted proposal without recalculation.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_008 (CMCCBNP-293) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-293-TC-003",
+      "CMCCBNP-293-TC-005"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures pricing rules and bundle-based pricing applied during proposal configuration are preserved in the order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_008 (CMCCBNP-293) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-293-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM009 Split Orders",
+   "source": "Jira CMCCBNP-294",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can define the criteria for order splitting such that whenever there are multiple products in the quote, it creates multiple orders, one order per system.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_009 (CMCCBNP-294) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-294-TC-001",
+      "CMCCBNP-294-TC-004",
+      "CMCCBNP-294-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can ensure that when orders are split for every FG system, the order line items are mapped correctly based on each FG configuration (option line items for a given FG system are copied over correctly as order line items for the respective order).",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_009 (CMCCBNP-294) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-294-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can ensure that orders are split correctly as soon as the quote is accepted and the order is created.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_009 (CMCCBNP-294) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-294-TC-003"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM010 Order Lifecycle Flow",
+   "source": "Jira CMCCBNP-295",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can mark the order as 'pending' when it is created.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_010 (CMCCBNP-295) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-295-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can send the order information over to D365 via order integration.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_010 (CMCCBNP-295) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-295-TC-002",
+      "CMCCBNP-295-TC-008"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can mark the order as 'confirmed' when the customer has confirmed the order booking.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_010 (CMCCBNP-295) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-295-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can mark the order as In Fulfillment and Fulfilled based on the status changes in D365.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_010 (CMCCBNP-295) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-295-TC-004",
+      "CMCCBNP-295-TC-009",
+      "CMCCBNP-295-TC-011"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can mark the order as activated in Conga based on status changes in D365 when the order is installed and invoice generation is triggered in D365.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_010 (CMCCBNP-295) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-295-TC-005"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "I can ensure all order line items are marked as activated when order is marked as activated.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_010 (CMCCBNP-295) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-295-TC-005"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "I can go for a cancellation of an order and mark the order status as cancelled.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_010 (CMCCBNP-295) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-295-TC-006",
+      "CMCCBNP-295-TC-010"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "I can amend an order and mark the order status as Amended and Superseded.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_010 (CMCCBNP-295) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-295-TC-007"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "OM011 Amend Order Pre-Activate",
+   "source": "Jira CMCCBNP-296",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can amend order when the order is in Pending status.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_011 (CMCCBNP-296) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-296-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can modify the configuration of the order to edit the superseded part with the upgraded part (provided the product master has been updated by CPQ Admin to include the upgraded part and a swap rule is in place).",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_011 (CMCCBNP-296) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-296-TC-002",
+      "CMCCBNP-296-TC-007"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can reprice and finalize the order cart.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_011 (CMCCBNP-296) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-296-TC-003",
+      "CMCCBNP-296-TC-008"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can ensure that a new order is created that contains the updated product configuration where the part replacement has been performed and the upgraded part is now present.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_011 (CMCCBNP-296) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-296-TC-004"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can ensure the new order is marked as Pending, and the original order is marked as Superseded.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_011 (CMCCBNP-296) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-296-TC-004"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "I can ensure that the new order gets sent to D365 when the customer confirms the booking, not the superseded order.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_011 (CMCCBNP-296) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-296-TC-005"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "I can ensure order amendment for parts replacement can happen only when order is in pending status and not when it is under fulfillment or activated.",
+     "anchor": "Confluence 'Epic 7.1 - Order Management' (5059674130) > Canon_OM_011 (CMCCBNP-296) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-296-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM001 Create Activate Assets",
+   "source": "Jira CMCCBNP-297",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see assets created after proposal is accepted.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_001 (CMCCBNP-297) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-297-TC-001",
+      "CMCCBNP-297-TC-005",
+      "CMCCBNP-297-TC-006"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see asset activation triggered as part of the process.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_001 (CMCCBNP-297) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-297-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can see assets linked to account and location.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_001 (CMCCBNP-297) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-297-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can see asset status as Activated.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_001 (CMCCBNP-297) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-297-TC-002"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures both finished goods and service products are converted into assets.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_001 (CMCCBNP-297) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-297-TC-004",
+      "CMCCBNP-297-TC-006",
+      "CMCCBNP-297-TC-007"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM002 Asset Line Structure",
+   "source": "Jira CMCCBNP-298",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see finished goods represented as primary assets.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_002 (CMCCBNP-298) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-298-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see associated options linked as child assets.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_002 (CMCCBNP-298) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-298-TC-002",
+      "CMCCBNP-298-TC-004"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can identify relationships between main products and options in the asset line item records.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_002 (CMCCBNP-298) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-298-TC-002"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures bundle structure from proposal/order is preserved in assets.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_002 (CMCCBNP-298) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-298-TC-003",
+      "CMCCBNP-298-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM003 Asset Billing Values",
+   "source": "Jira CMCCBNP-299",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can view charge type for each asset line (e.g., Recurring, One Time).",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_003 (CMCCBNP-299) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-299-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view billing frequency for recurring products (e.g., Yearly).",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_003 (CMCCBNP-299) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-299-TC-001"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can view selling term or duration for each asset line.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_003 (CMCCBNP-299) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-299-TC-002",
+      "CMCCBNP-299-TC-006"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can differentiate service products from finished goods and options.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_003 (CMCCBNP-299) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-299-TC-002"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures billing attributes are carried from order line items.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_003 (CMCCBNP-299) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-299-TC-003"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures recurring and one-time products are classified correctly.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_003 (CMCCBNP-299) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-299-TC-004",
+      "CMCCBNP-299-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM004 Asset Start End Dates",
+   "source": "Jira CMCCBNP-300",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can view start date for each asset line.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_004 (CMCCBNP-300) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-300-TC-001",
+      "CMCCBNP-300-TC-005"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view end date for each asset line.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_004 (CMCCBNP-300) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-300-TC-001",
+      "CMCCBNP-300-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can identify duration of service or warranty coverage.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_004 (CMCCBNP-300) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-300-TC-001"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures dates are carried from order or service agreement.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_004 (CMCCBNP-300) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-300-TC-002"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures lifecycle is managed based on date.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_004 (CMCCBNP-300) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-300-TC-003",
+      "CMCCBNP-300-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM005 Asset Pricing Details",
+   "source": "Jira CMCCBNP-301",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can view net price for each asset line.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_005 (CMCCBNP-301) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-301-TC-001",
+      "CMCCBNP-301-TC-006"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view extended price for each asset line.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_005 (CMCCBNP-301) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-301-TC-001",
+      "CMCCBNP-301-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can identify pricing differences between products and options.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_005 (CMCCBNP-301) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-301-TC-002"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures pricing is carried from order without recalculation.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_005 (CMCCBNP-301) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-301-TC-003"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures pricing consistency between order and asset records.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_005 (CMCCBNP-301) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-301-TC-003",
+      "CMCCBNP-301-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM006 Classify Assets",
+   "source": "Jira CMCCBNP-302",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can identify service/warranty products such as subscription fee items.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_006 (CMCCBNP-302) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-302-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can identify finished goods such as equipment systems.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_006 (CMCCBNP-302) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-302-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can identify option-level components linked to systems.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_006 (CMCCBNP-302) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-302-TC-002",
+      "CMCCBNP-302-TC-005"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures classification is derived from product type.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_006 (CMCCBNP-302) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-302-TC-003",
+      "CMCCBNP-302-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM007 Assets to Locations",
+   "source": "Jira CMCCBNP-303",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see asset mapped to a specific account location.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_007 (CMCCBNP-303) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-303-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "System ensures location data is carried from proposal/order.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_007 (CMCCBNP-303) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-303-TC-002",
+      "CMCCBNP-303-TC-004"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures correct mapping of asset to location.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_007 (CMCCBNP-303) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-303-TC-002",
+      "CMCCBNP-303-TC-003"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM008 Track Asset Lifecycle",
+   "source": "Jira CMCCBNP-304",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can view asset status such as Activated.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_008 (CMCCBNP-304) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-304-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can track lifecycle status changes over time.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_008 (CMCCBNP-304) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-304-TC-002",
+      "CMCCBNP-304-TC-004"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures lifecycle status is updated based on events such as activation.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_008 (CMCCBNP-304) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-304-TC-002",
+      "CMCCBNP-304-TC-005"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures lifecycle history is maintained.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_008 (CMCCBNP-304) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-304-TC-003"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM009 View Installed Assets",
+   "source": "Jira CMCCBNP-305",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can view assets linked to a customer account.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_009 (CMCCBNP-305) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-305-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view asset configuration and hierarchy.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_009 (CMCCBNP-305) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-305-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can view billing attributes such as charge type and billing frequency.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_009 (CMCCBNP-305) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-305-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures asset data is accurate and up to date.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_009 (CMCCBNP-305) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-305-TC-004",
+      "CMCCBNP-305-TC-006"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures role-based access is applied.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_009 (CMCCBNP-305) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-305-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AM010 Update Assets on Renewal",
+   "source": "Jira CMCCBNP-306",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see updated end dates for renewed service assets.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_010 (CMCCBNP-306) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-306-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see new service period applied after renewal.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_010 (CMCCBNP-306) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-306-TC-001"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures renewal process updates existing asset records or creates new service asset lines.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_010 (CMCCBNP-306) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-306-TC-002",
+      "CMCCBNP-306-TC-004"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures continuity of service coverage is maintained.",
+     "anchor": "Confluence 'Epic 7.2 - Asset Management' (5059674151) > Canon_AM_010 (CMCCBNP-306) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-306-TC-003",
+      "CMCCBNP-306-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "BS001 Generate Billing Schedule",
+   "source": "Jira CMCCBNP-307",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see billing created with Pricing Source = Order Line Item.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_001 (CMCCBNP-307) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-307-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see billing generated only for warranty/renewal service products.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_001 (CMCCBNP-307) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-307-TC-002",
+      "CMCCBNP-307-TC-007"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can see recurring billing schedules created with defined frequency (e.g. Quarterly) and for the duration mentioned in the quote or order.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_001 (CMCCBNP-307) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-307-TC-003",
+      "CMCCBNP-307-TC-008"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can see Billing Rule applied (e.g. Bill in Advance).",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_001 (CMCCBNP-307) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-307-TC-004"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "System ensures billing schedule aligns with duration and coverage period mentioned in the order.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_001 (CMCCBNP-307) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-307-TC-005"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "System ensures billing schedules are created only after Order activation.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_001 (CMCCBNP-307) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-307-TC-005",
+      "CMCCBNP-307-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "BS002 Billing Attributes",
+   "source": "Jira CMCCBNP-308",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can view billing name, status, bill-to, and contracted flag.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_002 (CMCCBNP-308) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-308-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view product, price type, billing frequency, billing rule, and billing preference.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_002 (CMCCBNP-308) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-308-TC-002",
+      "CMCCBNP-308-TC-010"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can view billing start date, end date, and selling term.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_002 (CMCCBNP-308) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-308-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can view proration method used for billing.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_002 (CMCCBNP-308) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-308-TC-004"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can view parent and current order line items and asset linkage.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_002 (CMCCBNP-308) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-308-TC-005"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "I can view currency, quantity, net unit price, billable amount, and TCV.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_002 (CMCCBNP-308) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-308-TC-006"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "I can view invoiced, pending, and adjusted amounts.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_002 (CMCCBNP-308) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-308-TC-007"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "System ensures billing attributes align with order data.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_002 (CMCCBNP-308) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-308-TC-008",
+      "CMCCBNP-308-TC-009"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "BS003 Billing Period Breakdown",
+   "source": "Jira CMCCBNP-309",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see multiple billing schedule records per billing period.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_003 (CMCCBNP-309) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-309-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can verify billing aligns with billing frequency.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_003 (CMCCBNP-309) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-309-TC-002",
+      "CMCCBNP-309-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can calculate total billing equal to TCV.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_003 (CMCCBNP-309) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-309-TC-003",
+      "CMCCBNP-309-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "BS004 Prorated Billing",
+   "source": "Jira CMCCBNP-310",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see prorated billing amounts for partial periods.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_004 (CMCCBNP-310) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-310-TC-001",
+      "CMCCBNP-310-TC-006"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see proration applied using defined method (30 days).",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_004 (CMCCBNP-310) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-310-TC-002",
+      "CMCCBNP-310-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures billing is proportional to service duration.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_004 (CMCCBNP-310) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-310-TC-003",
+      "CMCCBNP-310-TC-006"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures prorated values do not impact future billing cycles.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_004 (CMCCBNP-310) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-310-TC-004",
+      "CMCCBNP-310-TC-007"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "BS005 Billing Financial Values",
+   "source": "Jira CMCCBNP-311",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see correct net unit price, quantity, and billable amount.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_005 (CMCCBNP-311) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-311-TC-001",
+      "CMCCBNP-311-TC-006"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see total contract value reflected in billing.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_005 (CMCCBNP-311) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-311-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can see accurate pending and invoiced amounts.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_005 (CMCCBNP-311) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-311-TC-003",
+      "CMCCBNP-311-TC-005"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures no mismatch between billing and order values.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_005 (CMCCBNP-311) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-311-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "BS006 Billing D365 Integration",
+   "source": "Jira CMCCBNP-312",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can ensure to send the billing schedules information (billing header, billing schedule details, etc.) to D365 as part of the Conga-Dynamics integration.",
+     "anchor": "Confluence 'Epic 7.3 - Billing Schedules' (5059805197) > Canon_BS_006 (CMCCBNP-312) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-312-TC-001",
+      "CMCCBNP-312-TC-002",
+      "CMCCBNP-312-TC-003",
+      "CMCCBNP-312-TC-004"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,439 @@
+{
+ "schema": "coverage-1.0",
+ "workbook": "TC-Epic05-DocGeneration_20260725_v3.xlsx",
+ "features": [
+  {
+   "sheet": "DG001 Configure Quote Templates",
+   "source": "Jira CMCCBNP-76",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can create and maintain multiple document templates.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_001 (CMCCBNP-76) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-76-TC-101",
+      "CMCCBNP-76-TC-102",
+      "CMCCBNP-76-TC-107",
+      "CMCCBNP-76-TC-108"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can configure templates for finished goods, warranty/service, and spare parts quotes.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_001 (CMCCBNP-76) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-76-TC-103",
+      "CMCCBNP-76-TC-104"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can define sections such as header, product table, pricing summary, and terms.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_001 (CMCCBNP-76) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-76-TC-105",
+      "CMCCBNP-76-TC-108"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System generates proposal documents based on selected template, country of quotation, and quote type etc parameters.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_001 (CMCCBNP-76) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-76-TC-106",
+      "CMCCBNP-76-TC-109"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG002 Generate Quote Document",
+   "source": "Jira CMCCBNP-77",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can press the 'Generate' Action button on the quote which opens the generate screen.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_002 (CMCCBNP-77) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-77-TC-101",
+      "CMCCBNP-77-TC-108",
+      "CMCCBNP-77-TC-109"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can select the template, the output format and watermark before generating the document.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_002 (CMCCBNP-77) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-77-TC-102",
+      "CMCCBNP-77-TC-106",
+      "CMCCBNP-77-TC-109"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can see the proposal stage is changed from Draft/Approved to Generated.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_002 (CMCCBNP-77) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-77-TC-103",
+      "CMCCBNP-77-TC-107"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can generate the document in DOCX or PDF format.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_002 (CMCCBNP-77) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-77-TC-103",
+      "CMCCBNP-77-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Once I generate the document, I can see the 'Mark as Present' action button on the proposal.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_002 (CMCCBNP-77) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-77-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG003 View Generated Documents",
+   "source": "Jira CMCCBNP-78",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can preview the document after generation and before submission.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_003 (CMCCBNP-78) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-78-TC-101",
+      "CMCCBNP-78-TC-106"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see the document being attached to the notes and attachment section of the proposal header.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_003 (CMCCBNP-78) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-78-TC-102"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can download the generated document to my local desktop in the same format as it was generated in.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_003 (CMCCBNP-78) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-78-TC-103",
+      "CMCCBNP-78-TC-106",
+      "CMCCBNP-78-TC-107",
+      "CMCCBNP-78-TC-108"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can go back and re-generate the document even if it has been generated before.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_003 (CMCCBNP-78) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-78-TC-104",
+      "CMCCBNP-78-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG004 Send Proposal via System",
+   "source": "Jira CMCCBNP-79",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see the 'Send Proposal' button on the proposal header.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_004 (CMCCBNP-79) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-79-TC-101",
+      "CMCCBNP-79-TC-108"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Clicking the button opens a screen with fields defaulted from the proposal details (Email To: Primary Contact; Subject: TBD; Body: TBD).",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_004 (CMCCBNP-79) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-79-TC-102",
+      "CMCCBNP-79-TC-107"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System automatically attaches the generated document to the email.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_004 (CMCCBNP-79) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-79-TC-103"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can select a preconfigured email body.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_004 (CMCCBNP-79) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-79-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can personalize the Email Body even though it was preconfigured.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_004 (CMCCBNP-79) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-79-TC-105"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "Once I send the Email using the system, the system changes the proposal stage from 'Generated' to 'Presented'.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_004 (CMCCBNP-79) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-79-TC-106",
+      "CMCCBNP-79-TC-109"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG005 Receive Proposal Email",
+   "source": "Jira CMCCBNP-80",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can receive the proposal document email in my inbox.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_005 (CMCCBNP-80) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-80-TC-101",
+      "CMCCBNP-80-TC-103"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view the proposal document attachment to the email sent by the Canon Medical account manager.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_005 (CMCCBNP-80) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-80-TC-102",
+      "CMCCBNP-80-TC-104"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG006 Configure Output Formats",
+   "source": "Jira CMCCBNP-81",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can configure document output formats such as DOCX and PDF.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_006 (CMCCBNP-81) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-81-TC-101",
+      "CMCCBNP-81-TC-103"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can control which formats are available for specific document templates or user scenarios.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_006 (CMCCBNP-81) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-81-TC-102",
+      "CMCCBNP-81-TC-104"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG007 Configure Draft Watermark",
+   "source": "Jira CMCCBNP-82",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can configure the watermark during Conga Composer template generation so that a watermark is automatically printed on document generation when the quote is still not approved yet.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_007 (CMCCBNP-82) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-82-TC-101",
+      "CMCCBNP-82-TC-103",
+      "CMCCBNP-82-TC-105",
+      "CMCCBNP-82-TC-106"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can alternatively use the 'Include Watermark' checkbox in the document generation UI; if checked, the document will include a 'DRAFT' watermark.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_007 (CMCCBNP-82) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-82-TC-102",
+      "CMCCBNP-82-TC-104",
+      "CMCCBNP-82-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG008 Configure Conga Sign",
+   "source": "Jira CMCCBNP-83",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can place appropriate tags for the respective signers in the proposal document template.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_008 (CMCCBNP-83) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-83-TC-101",
+      "CMCCBNP-83-TC-105",
+      "CMCCBNP-83-TC-106",
+      "CMCCBNP-83-TC-107"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I am able to send the generated proposal document for e-signature using Conga Sign integration with Conga CPQ.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_008 (CMCCBNP-83) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-83-TC-102",
+      "CMCCBNP-83-TC-105"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can enter the signers' names on the proposal header which are directly entered in the signer details when the document is generated.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_008 (CMCCBNP-83) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-83-TC-103",
+      "CMCCBNP-83-TC-107"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can track the Conga Sign transactions and their statuses.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_008 (CMCCBNP-83) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-83-TC-104"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG009 Send Document for eSign",
+   "source": "Jira CMCCBNP-84",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can send the generated document for e-signatures via Conga Sign to the designated recipient details and maintain the appropriate sequence for recipients.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_009 (CMCCBNP-84) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-84-TC-101",
+      "CMCCBNP-84-TC-105",
+      "CMCCBNP-84-TC-107"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can enter parameters such as reminders, expiry and email body text while sending the e-signature email.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_009 (CMCCBNP-84) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-84-TC-102",
+      "CMCCBNP-84-TC-106"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can trigger email notifications to be sent to the signers, and track the signature status.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_009 (CMCCBNP-84) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-84-TC-103",
+      "CMCCBNP-84-TC-107"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can ensure that the system stores the signed version of the document in the proposal record once all the signatures are complete.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_009 (CMCCBNP-84) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-84-TC-104",
+      "CMCCBNP-84-TC-108"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG010 Recall E-Signature",
+   "source": "Jira CMCCBNP-85",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I am able to recall the document which was sent for e-signatures.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_010 (CMCCBNP-85) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-85-TC-101",
+      "CMCCBNP-85-TC-105",
+      "CMCCBNP-85-TC-106"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "An eSignature recall email notification is sent to the recipient(s).",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_010 (CMCCBNP-85) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-85-TC-102"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Proposal next actions are shown as per Process Flow.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_010 (CMCCBNP-85) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-85-TC-103",
+      "CMCCBNP-85-TC-106"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I am able to reinitiate the e-signature process.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_010 (CMCCBNP-85) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-85-TC-104"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "DG011 Complete Decline eSign",
+   "source": "Jira CMCCBNP-86",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I am able to complete or cancel the e-sign process for the document sent to me.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_011 (CMCCBNP-86) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-86-TC-101",
+      "CMCCBNP-86-TC-103",
+      "CMCCBNP-86-TC-107"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "When I take the action, the status of the eSignature transaction is appropriately updated in the Conga Sign transaction record (COMPLETE, DECLINED, CANCELLED etc).",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_011 (CMCCBNP-86) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-86-TC-102",
+      "CMCCBNP-86-TC-104",
+      "CMCCBNP-86-TC-106"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "When I take the action, the account manager receives a notification about the action I took.",
+     "anchor": "Confluence 'Epic 05 - Document Generation, Presenting, and E-signature' (5035556880) > Canon_DG_011 (CMCCBNP-86) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-86-TC-105",
+      "CMCCBNP-86-TC-106"
+     ]
+    }
+   ]
+  }
+ ]
+}

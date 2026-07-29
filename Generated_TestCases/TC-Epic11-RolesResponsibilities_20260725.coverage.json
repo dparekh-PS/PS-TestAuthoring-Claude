@@ -1,0 +1,474 @@
+{
+ "schema": "coverage-1.0",
+ "workbook": "TC-Epic11-RolesResponsibilities_20260725.xlsx",
+ "features": [
+  {
+   "sheet": "CP001 Product Master Access",
+   "source": "Confluence Canon_CP_001 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "CPQ Admin, System Admin, Canon Care, and Supply Chain users can create, edit, and delete Product Master records (Full Access).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_001 (ID placeholder CMCCBNP-11001) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11001-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "BU Manager can only view Product Master data via reports/BI dashboards and cannot navigate to the module directly (Report/BI Only \u2014 not Read Only).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_001 (ID placeholder CMCCBNP-11001) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11001-TC-002",
+      "CMCCBNP-11001-TC-003"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Conga - Sales, Service Manager, Branch Admin, Tenders, and GC Visibility users cannot access the Product Master module.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_001 (ID placeholder CMCCBNP-11001) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11001-TC-004"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System displays an \"Access Denied\" message when a restricted user attempts to access Product Master via direct URL or menu.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_001 (ID placeholder CMCCBNP-11001) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11001-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP002 Pricing Master Access",
+   "source": "Confluence Canon_CP_002 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "CPQ Admin, System Admin, Canon Care, Supply Chain, and Tenders users can create, edit, and delete Pricing Master records (Full Access).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_002 (ID placeholder CMCCBNP-11002) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11002-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "BU Manager can only view Pricing Master data via reports/BI dashboards and cannot navigate to the module directly (Report/BI Only).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_002 (ID placeholder CMCCBNP-11002) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11002-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Conga - Sales, Service Manager, and Branch Admin users cannot access the Pricing Master module.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_002 (ID placeholder CMCCBNP-11002) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11002-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System prevents any restricted user from viewing or modifying pricing records through any navigation path.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_002 (ID placeholder CMCCBNP-11002) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11002-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP003 Proposal Access",
+   "source": "Confluence Canon_CP_003 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "CPQ Admin, System Admin, Conga - Sales, Service Manager, Branch Admin, Canon Care, Supply Chain, Tenders, and BU Manager users can create, edit, and manage Proposals (Full Access).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_003 (ID placeholder CMCCBNP-11003) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11003-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "GC Visibility users have no access to Proposals.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_003 (ID placeholder CMCCBNP-11003) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11003-TC-003"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System enforces proposal access at both menu and direct URL level.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_003 (ID placeholder CMCCBNP-11003) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11003-TC-004"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Users with Full Access can generate, clone, and submit proposals per business rules.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_003 (ID placeholder CMCCBNP-11003) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11003-TC-002"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP004 GC Information Access",
+   "source": "Confluence Canon_CP_004 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "CPQ Admin and System Admin users can view and manage all GC Information fields including GCS, GC%, and Cost data (Full Access).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_004 (ID placeholder CMCCBNP-11004) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11004-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Conga - Sales, Service Manager, Branch Admin, Canon Care, Supply Chain, and Tenders users can view GC Information in read-only mode (Read Only).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_004 (ID placeholder CMCCBNP-11004) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11004-TC-002",
+      "CMCCBNP-11004-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "BU Manager can view GC Information in read-only mode (Read Only).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_004 (ID placeholder CMCCBNP-11004) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11004-TC-003",
+      "CMCCBNP-11004-TC-005"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "GC Visibility users can view GC data only (Read Only \u2014 scoped to GC fields).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_004 (ID placeholder CMCCBNP-11004) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11004-TC-004"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System hides GC Information fields entirely from users with No Access.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_004 (ID placeholder CMCCBNP-11004) > Acceptance Criteria (criterion 5)",
+     "covered_by": [
+      "CMCCBNP-11004-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP005 Orders Access",
+   "source": "Confluence Canon_CP_005 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "CPQ Admin, System Admin, Canon Care, and Supply Chain users can create, edit, and process Orders (Full Access).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_005 (ID placeholder CMCCBNP-11005) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11005-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Conga - Sales, Service Manager, Branch Admin, Tenders, and BU Manager users can view Orders but cannot create or modify them (Read Only).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_005 (ID placeholder CMCCBNP-11005) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11005-TC-002",
+      "CMCCBNP-11005-TC-003"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "GC Visibility users have no access to the Orders module.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_005 (ID placeholder CMCCBNP-11005) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11005-TC-004"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System prevents restricted users from modifying order records through any path including API access.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_005 (ID placeholder CMCCBNP-11005) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11005-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP006 Contract Renewal Access",
+   "source": "Confluence Canon_CP_006 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "CPQ Admin, System Admin, Canon Care, and Supply Chain users can create, edit, and manage Contract and Renewal records (Full Access).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_006 (ID placeholder CMCCBNP-11006) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11006-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Conga - Sales, Service Manager, Branch Admin, Tenders, and BU Manager users can view Contracts and Renewals but cannot modify them (Read Only).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_006 (ID placeholder CMCCBNP-11006) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11006-TC-002",
+      "CMCCBNP-11006-TC-003"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "GC Visibility users have no access to Contract/Renewal records.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_006 (ID placeholder CMCCBNP-11006) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11006-TC-004"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System maintains audit trail of all contract modifications by Full Access users.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_006 (ID placeholder CMCCBNP-11006) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11006-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP007 Prevent Unauthorized",
+   "source": "Confluence Canon_CP_007 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "System prevents users from accessing unauthorized modules through application menus, and the menu items for restricted modules are hidden from the user's view.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_007 (ID placeholder CMCCBNP-11007) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11007-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "System prevents users from accessing unauthorized modules through direct URL entry and displays an \"Access Denied\" message.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_007 (ID placeholder CMCCBNP-11007) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11007-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System prevents unauthorized data access via API calls and integration endpoints.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_007 (ID placeholder CMCCBNP-11007) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11007-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "All unauthorized access attempts are logged in the Conga/Salesforce audit trail with timestamp, user ID, and attempted module.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_007 (ID placeholder CMCCBNP-11007) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11007-TC-004"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "When a user holds multiple permission sets, the most restrictive access level applies for each module.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_007 (ID placeholder CMCCBNP-11007) > Acceptance Criteria (criterion 5)",
+     "covered_by": [
+      "CMCCBNP-11007-TC-005"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "Users cannot export or download data from modules they do not have access to.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_007 (ID placeholder CMCCBNP-11007) > Acceptance Criteria (criterion 6)",
+     "covered_by": [
+      "CMCCBNP-11007-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP008 Admin Role Management",
+   "source": "Confluence Canon_CP_008 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "CPQ Administrator can assign one or more Conga permission sets from the defined permission matrix to any user.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_008 (ID placeholder CMCCBNP-11008) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11008-TC-001",
+      "CMCCBNP-11008-TC-007"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Permission changes take effect immediately upon save without requiring user logout.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_008 (ID placeholder CMCCBNP-11008) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11008-TC-002",
+      "CMCCBNP-11008-TC-008"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "CPQ Administrator can remove permission set assignments from users.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_008 (ID placeholder CMCCBNP-11008) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11008-TC-003",
+      "CMCCBNP-11008-TC-007"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System maintains an audit trail of all role assignment changes including who made the change, what was changed, and when.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_008 (ID placeholder CMCCBNP-11008) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11008-TC-004"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System Admin can perform all role management functions that CPQ Admin can.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_008 (ID placeholder CMCCBNP-11008) > Acceptance Criteria (criterion 5)",
+     "covered_by": [
+      "CMCCBNP-11008-TC-005"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "A review mechanism exists to periodically validate that users' permission sets align with their current job function.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_008 (ID placeholder CMCCBNP-11008) > Acceptance Criteria (criterion 6)",
+     "covered_by": [
+      "CMCCBNP-11008-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP009 Quote Template Access",
+   "source": "Confluence Canon_CP_009 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "CPQ Admin and System Admin users can create, edit, and delete Quote Templates (Full Access).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_009 (ID placeholder CMCCBNP-11009) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11009-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "All other Conga permission sets including Sales, BU Manager, Service Manager, Branch Admin, Canon Care, Supply Chain, Tenders, and GC Visibility have no access to Quote Templates.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_009 (ID placeholder CMCCBNP-11009) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11009-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System hides Quote Template menu items from users without access.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_009 (ID placeholder CMCCBNP-11009) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11009-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System blocks direct URL access to Quote Templates for users without access.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_009 (ID placeholder CMCCBNP-11009) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11009-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP010 Approvals Master Access",
+   "source": "Confluence Canon_CP_010 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "CPQ Admin and System Admin users can create, edit, and manage Approval Master configurations (Full Access).",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_010 (ID placeholder CMCCBNP-11010) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11010-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "All other Conga permission sets have no access to Approvals Master.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_010 (ID placeholder CMCCBNP-11010) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11010-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System prevents non-admin users from viewing or modifying approval rules.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_010 (ID placeholder CMCCBNP-11010) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11010-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System logs all changes to Approval Master configuration with timestamp, user ID, and changed values.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_010 (ID placeholder CMCCBNP-11010) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11010-TC-004"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "CP011 Approval Supervisor",
+   "source": "Confluence Canon_CP_011 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Approval Supervisor users can view, approve, reject, and reassign pending approvals across all queues.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_011 (ID placeholder CMCCBNP-11011) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-11011-TC-001"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "CPQ Admin and System Admin users can configure Approval Supervisor assignments.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_011 (ID placeholder CMCCBNP-11011) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-11011-TC-002",
+      "CMCCBNP-11011-TC-005"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "All other Conga permission sets cannot perform supervisor-level approval actions.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_011 (ID placeholder CMCCBNP-11011) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-11011-TC-003",
+      "CMCCBNP-11011-TC-005"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System logs all supervisor approval actions with timestamp, decision, user ID, and decision rationale.",
+     "anchor": "Confluence 'Epic 11 - Roles and Responsibilities' (5046698140) > Canon_CP_011 (ID placeholder CMCCBNP-11011) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-11011-TC-004"
+     ]
+    }
+   ]
+  }
+ ]
+}

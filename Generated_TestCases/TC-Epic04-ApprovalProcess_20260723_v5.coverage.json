@@ -1,0 +1,1135 @@
+{
+ "schema": "coverage-1.0",
+ "workbook": "TC-Epic04-ApprovalProcess_20260723_v5.xlsx",
+ "derivation": "authored-from-source",
+ "features": [
+  {
+   "sheet": "AP001 Configure Approval Rules",
+   "source": "Jira CMCCBNP-55",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Define approval rules based on discount %, margin %, deal size, product type, or other commercial conditions.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_001 (CMCCBNP-55) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-55-TC-101",
+      "CMCCBNP-55-TC-102",
+      "CMCCBNP-55-TC-105"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Configure thresholds that trigger approval.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_001 (CMCCBNP-55) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-55-TC-101",
+      "CMCCBNP-55-TC-104",
+      "CMCCBNP-55-TC-106"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Define rules at header level or line-item level.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_001 (CMCCBNP-55) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-55-TC-101",
+      "CMCCBNP-55-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System evaluates approval rules automatically when pricing or configuration changes.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_001 (CMCCBNP-55) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-55-TC-103",
+      "CMCCBNP-55-TC-107"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System triggers approvals when configured thresholds are exceeded.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_001 (CMCCBNP-55) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-55-TC-103",
+      "CMCCBNP-55-TC-106",
+      "CMCCBNP-55-TC-107"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP002 Approval Hierarchy",
+   "source": "Jira CMCCBNP-56",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Configure approvers based on users, roles, or queues.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_002 (CMCCBNP-56) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-56-TC-101",
+      "CMCCBNP-56-TC-105",
+      "CMCCBNP-56-TC-107"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Define multi-level approval hierarchy.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_002 (CMCCBNP-56) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-56-TC-102",
+      "CMCCBNP-56-TC-105"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Configure sequential or parallel approvals.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_002 (CMCCBNP-56) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-56-TC-102",
+      "CMCCBNP-56-TC-103"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System routes approval requests based on defined rules.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_002 (CMCCBNP-56) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-56-TC-104",
+      "CMCCBNP-56-TC-106"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System assigns approval tasks to the correct approvers.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_002 (CMCCBNP-56) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-56-TC-104",
+      "CMCCBNP-56-TC-106"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP003 Submit Quote for Approval",
+   "source": "Jira CMCCBNP-57",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Submit the quote for approval from the quote or cart.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_003 (CMCCBNP-57) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-57-TC-101",
+      "CMCCBNP-57-TC-102",
+      "CMCCBNP-57-TC-105"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "See whether approval is required before submission.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_003 (CMCCBNP-57) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-57-TC-103"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Add comments or justification while submitting for approval.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_003 (CMCCBNP-57) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-57-TC-101",
+      "CMCCBNP-57-TC-106"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System validates approval requirement before submission.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_003 (CMCCBNP-57) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-57-TC-103",
+      "CMCCBNP-57-TC-104",
+      "CMCCBNP-57-TC-105"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System changes quote status to 'Approval Pending'.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_003 (CMCCBNP-57) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-57-TC-101",
+      "CMCCBNP-57-TC-102",
+      "CMCCBNP-57-TC-104"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System triggers the approval workflow.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_003 (CMCCBNP-57) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-57-TC-101",
+      "CMCCBNP-57-TC-102"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP004 Approve or Reject Quote",
+   "source": "Jira CMCCBNP-58",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "View quotes pending my approval.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_004 (CMCCBNP-58) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-58-TC-101",
+      "CMCCBNP-58-TC-104"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Review pricing, discounts, GC%.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_004 (CMCCBNP-58) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-58-TC-101"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Approve or reject the quote, after which approval status changes to 'Approved' or 'Rejected'.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_004 (CMCCBNP-58) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-58-TC-102",
+      "CMCCBNP-58-TC-103",
+      "CMCCBNP-58-TC-104",
+      "CMCCBNP-58-TC-106"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Provide comments while approving or rejecting the quote.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_004 (CMCCBNP-58) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-58-TC-102",
+      "CMCCBNP-58-TC-103",
+      "CMCCBNP-58-TC-105"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System updates approval status based on action taken.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_004 (CMCCBNP-58) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-58-TC-102",
+      "CMCCBNP-58-TC-103",
+      "CMCCBNP-58-TC-106"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System notifies the Account Manager of the decision.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_004 (CMCCBNP-58) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-58-TC-102",
+      "CMCCBNP-58-TC-103"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP005 Multi-Level Approval",
+   "source": "Jira CMCCBNP-59",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Configure approval rules to route quotes through multiple approval levels.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_005 (CMCCBNP-59) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-59-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Define sequential or parallel approval flows based on business requirements.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_005 (CMCCBNP-59) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-59-TC-102",
+      "CMCCBNP-59-TC-106"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Configure conditions for moving the quote to the next approval stage.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_005 (CMCCBNP-59) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-59-TC-101"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Assign approvers at each level based on roles, users, or conditions.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_005 (CMCCBNP-59) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-59-TC-101"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System automatically routes the quote to the next approver based on the configured flow.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_005 (CMCCBNP-59) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-59-TC-103",
+      "CMCCBNP-59-TC-105",
+      "CMCCBNP-59-TC-106"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures all required approval levels are completed before allowing quote finalization.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_005 (CMCCBNP-59) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-59-TC-104",
+      "CMCCBNP-59-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP006 Approval Status Tracking",
+   "source": "Jira CMCCBNP-60",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "View the current approval status (Pending, Approved, Rejected).",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_006 (CMCCBNP-60) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-60-TC-101",
+      "CMCCBNP-60-TC-105"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "See the list of approvers and their decision status.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_006 (CMCCBNP-60) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-60-TC-101",
+      "CMCCBNP-60-TC-106"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "View approval history including comments.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_006 (CMCCBNP-60) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-60-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System updates approval status in real time.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_006 (CMCCBNP-60) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-60-TC-103",
+      "CMCCBNP-60-TC-105",
+      "CMCCBNP-60-TC-106"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System maintains a complete audit trail.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_006 (CMCCBNP-60) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-60-TC-102",
+      "CMCCBNP-60-TC-104"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP007 Resubmit After Rejection",
+   "source": "Jira CMCCBNP-61",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Re-edit the quote whose approval was rejected.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_007 (CMCCBNP-61) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-61-TC-101",
+      "CMCCBNP-61-TC-106"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "See rejection comments from approvers.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_007 (CMCCBNP-61) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-61-TC-101"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Resubmit the quote for approval.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_007 (CMCCBNP-61) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-61-TC-102",
+      "CMCCBNP-61-TC-105"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System allows re-submission after updates.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_007 (CMCCBNP-61) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-61-TC-102",
+      "CMCCBNP-61-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System restarts the approval workflow from the step where it was rejected, not from the initial approvers all over again.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_007 (CMCCBNP-61) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-61-TC-103",
+      "CMCCBNP-61-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP008 Auto Approval Eligible",
+   "source": "Jira CMCCBNP-62",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Define criteria under which quotes are eligible for auto-approval (e.g. within discount thresholds, acceptable margin, standard payment terms).",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_008 (CMCCBNP-62) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-62-TC-101",
+      "CMCCBNP-62-TC-104"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Configure rules to identify quotes that do not require approval.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_008 (CMCCBNP-62) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-62-TC-101"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Maintain and update auto-approval configurations centrally.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_008 (CMCCBNP-62) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-62-TC-101",
+      "CMCCBNP-62-TC-105"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System identifies quotes that meet auto-approval criteria based on configured rules.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_008 (CMCCBNP-62) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-62-TC-102",
+      "CMCCBNP-62-TC-103",
+      "CMCCBNP-62-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Quotes meeting these criteria do not enter the approval workflow.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_008 (CMCCBNP-62) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-62-TC-102"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System bypasses approval workflow when the configured conditions are satisfied.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_008 (CMCCBNP-62) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-62-TC-102",
+      "CMCCBNP-62-TC-103"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "System marks eligible quotes as approved automatically.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_008 (CMCCBNP-62) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-62-TC-102"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP009 Discount GC% Thresholds",
+   "source": "Jira CMCCBNP-63",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Configure Tier 1 threshold (5%\u201310% discount) at bundle/modality level, routed to Sales Manager.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_009 (CMCCBNP-63) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-63-TC-101",
+      "CMCCBNP-63-TC-104"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Configure Tier 2 threshold (>10% discount) at bundle/modality level, routed to BU Manager.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_009 (CMCCBNP-63) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-63-TC-102",
+      "CMCCBNP-63-TC-105"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Configure Tier 3 threshold (>15% discount) at bundle/modality level, routed to James Jeffrey.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_009 (CMCCBNP-63) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-63-TC-102",
+      "CMCCBNP-63-TC-105"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System evaluates discount thresholds at the bundle/modality level, not at the total quote level.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_009 (CMCCBNP-63) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-63-TC-103",
+      "CMCCBNP-63-TC-105"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System triggers approvals to the Manager per approval matrix when applicable.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_009 (CMCCBNP-63) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-63-TC-103",
+      "CMCCBNP-63-TC-104"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP010 Branch Manager Routing",
+   "source": "Jira CMCCBNP-64",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Configure conditions under which quotes require Branch Manager approval (e.g. discount thresholds, margin conditions).",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_010 (CMCCBNP-64) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-64-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Define approval rules to assign approval requests to the Branch Manager.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_010 (CMCCBNP-64) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-64-TC-101",
+      "CMCCBNP-64-TC-105"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Maintain and update approval rules centrally.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_010 (CMCCBNP-64) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-64-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System identifies when Branch Manager approval is required based on configured rules.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_010 (CMCCBNP-64) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-64-TC-103",
+      "CMCCBNP-64-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "The approval is sent to the Branch Manager for approval when applicable.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_010 (CMCCBNP-64) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-64-TC-103",
+      "CMCCBNP-64-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP011 Non-Standard Pay Terms",
+   "source": "Jira CMCCBNP-65",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Define conditions to identify non-standard payment terms.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_011 (CMCCBNP-65) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-65-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Configure approval rules to assign approval requests based on payment term conditions.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_011 (CMCCBNP-65) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-65-TC-101"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Maintain and update approval rules.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_011 (CMCCBNP-65) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-65-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System detects non-standard payment terms based on configured conditions.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_011 (CMCCBNP-65) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-65-TC-103",
+      "CMCCBNP-65-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Approval routing is triggered for applicable quotes.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_011 (CMCCBNP-65) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-65-TC-103",
+      "CMCCBNP-65-TC-104"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System creates and routes approval requests based on configured payment term rules.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_011 (CMCCBNP-65) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-65-TC-103",
+      "CMCCBNP-65-TC-105"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "The approval is sent to the appropriate person.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_011 (CMCCBNP-65) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-65-TC-103",
+      "CMCCBNP-65-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP012 Approval Center",
+   "source": "Jira CMCCBNP-66",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Navigate to an Approval Center from the application.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_012 (CMCCBNP-66) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-66-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "View all approval requests assigned to me or my queue.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_012 (CMCCBNP-66) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-66-TC-101",
+      "CMCCBNP-66-TC-105"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Open and review approval details directly from the Approval Center.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_012 (CMCCBNP-66) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-66-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Take ownership of approval requests from the queue.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_012 (CMCCBNP-66) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-66-TC-103"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Approve or reject requests directly from the Approval Center.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_012 (CMCCBNP-66) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-66-TC-103",
+      "CMCCBNP-66-TC-105"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "Perform bulk actions (approve/reject/comment multiple requests in a single action, or take ownership of multiple).",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_012 (CMCCBNP-66) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-66-TC-104",
+      "CMCCBNP-66-TC-106"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "Approval Center displays relevant approval data such as status, approver, and request details.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_012 (CMCCBNP-66) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-66-TC-101"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP013 Edit Lock When Pending",
+   "source": "Jira CMCCBNP-67",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Quote editing is blocked when required approvals are still pending.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_013 (CMCCBNP-67) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-67-TC-101",
+      "CMCCBNP-67-TC-105"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "See the pending approval status on the quote.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_013 (CMCCBNP-67) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-67-TC-101"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Launch the cart but see line items as read-only when the quote is under review.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_013 (CMCCBNP-67) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-67-TC-102",
+      "CMCCBNP-67-TC-105"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "Edit the quote again if approval is rejected and it moves back to draft, OR if approved and the quote becomes editable once again.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_013 (CMCCBNP-67) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-67-TC-103",
+      "CMCCBNP-67-TC-104"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP014 Approve Reject via Email",
+   "source": "Jira CMCCBNP-68",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Receive an approval notification email when a request is assigned to me.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_014 (CMCCBNP-68) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-68-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Approve or reject the request by replying to the email using supported keywords.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_014 (CMCCBNP-68) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-68-TC-102",
+      "CMCCBNP-68-TC-103"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Add comments in the email while approving or rejecting.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_014 (CMCCBNP-68) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-68-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "See a summary of the approval request in the email including header and line details.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_014 (CMCCBNP-68) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-68-TC-101"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "See instructions in the email guiding me on how to approve, reject, or comment.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_014 (CMCCBNP-68) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-68-TC-101"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures approval action is processed only if the email format is valid.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_014 (CMCCBNP-68) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-68-TC-104",
+      "CMCCBNP-68-TC-106"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "System ensures that once a queue member approves/rejects, the request is removed from the queue.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_014 (CMCCBNP-68) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-68-TC-105",
+      "CMCCBNP-68-TC-106"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "System ensures approval/rejection applies at the configured level.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_014 (CMCCBNP-68) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-68-TC-102",
+      "CMCCBNP-68-TC-103"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP015 Approval Email Config",
+   "source": "Jira CMCCBNP-69",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Configure email templates for approval request, reassignment, rejection, cancellation, reminder, and escalation events.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_015 (CMCCBNP-69) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-69-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Configure separate templates for different approval outcomes.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_015 (CMCCBNP-69) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-69-TC-102"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures emails are triggered based on approval workflow events.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_015 (CMCCBNP-69) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-69-TC-103",
+      "CMCCBNP-69-TC-104"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures email templates are consistently applied across the approval lifecycle.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_015 (CMCCBNP-69) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-69-TC-103",
+      "CMCCBNP-69-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP016 Recall Approval Request",
+   "source": "Jira CMCCBNP-70",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Recall an in-progress approval request.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_016 (CMCCBNP-70) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-70-TC-101",
+      "CMCCBNP-70-TC-105"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Provide a recall reason before confirming.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_016 (CMCCBNP-70) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-70-TC-101",
+      "CMCCBNP-70-TC-104"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System ensures the approval workflow is terminated after recall.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_016 (CMCCBNP-70) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-70-TC-101",
+      "CMCCBNP-70-TC-105"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures all pending approval steps are canceled.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_016 (CMCCBNP-70) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-70-TC-102"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures recall notification is sent to impacted approvers.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_016 (CMCCBNP-70) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-70-TC-102"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures recall action and reason are recorded in approval history.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_016 (CMCCBNP-70) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-70-TC-103"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "System ensures approval status is updated appropriately after recall.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_016 (CMCCBNP-70) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-70-TC-101"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP017 Delegate Backup Approvers",
+   "source": "Jira CMCCBNP-71",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Add a delegate approver for a user.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_017 (CMCCBNP-71) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-71-TC-101",
+      "CMCCBNP-71-TC-106"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Add a backup approver for a user.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_017 (CMCCBNP-71) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-71-TC-101"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Remove delegate or backup approvers.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_017 (CMCCBNP-71) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-71-TC-102",
+      "CMCCBNP-71-TC-106"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures approval requests and notifications are sent to both primary and delegate/backup where configured.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_017 (CMCCBNP-71) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-71-TC-103"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures delegate/backup approvers can approve, reject, and comment.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_017 (CMCCBNP-71) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-71-TC-104"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System ensures reassigned approvals notify both new approvers and their delegates if applicable.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_017 (CMCCBNP-71) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-71-TC-105"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP018 Approval Reminders",
+   "source": "Jira CMCCBNP-72",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Configure reminder email templates.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_018 (CMCCBNP-72) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-72-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Define time-based conditions for reminders (e.g. 24 hours).",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_018 (CMCCBNP-72) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-72-TC-101",
+      "CMCCBNP-72-TC-104"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Associate reminders with approval steps.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_018 (CMCCBNP-72) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-72-TC-101"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures reminder emails are triggered if no action is taken within defined timelines.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_018 (CMCCBNP-72) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-72-TC-102",
+      "CMCCBNP-72-TC-103",
+      "CMCCBNP-72-TC-104"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System ensures reminders use configured templates.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_018 (CMCCBNP-72) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-72-TC-102"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP019 Approval Queues",
+   "source": "Jira CMCCBNP-73",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Create approval queues.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_019 (CMCCBNP-73) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-73-TC-101"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Add users to queues.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_019 (CMCCBNP-73) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-73-TC-101"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Remove users from queues.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_019 (CMCCBNP-73) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-73-TC-102"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "Assign approval steps to queues.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_019 (CMCCBNP-73) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-73-TC-102"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "Users in the queue can take ownership of approval requests.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_019 (CMCCBNP-73) > Acceptance Criteria (e)",
+     "covered_by": [
+      "CMCCBNP-73-TC-103",
+      "CMCCBNP-73-TC-106"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "Users can reassign approval requests after taking ownership.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_019 (CMCCBNP-73) > Acceptance Criteria (f)",
+     "covered_by": [
+      "CMCCBNP-73-TC-104"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "System ensures only one user can act on a request once ownership/action is taken.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_019 (CMCCBNP-73) > Acceptance Criteria (g)",
+     "covered_by": [
+      "CMCCBNP-73-TC-105",
+      "CMCCBNP-73-TC-106"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "System ensures queue-based requests are visible to all queue members before ownership assignment.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_019 (CMCCBNP-73) > Acceptance Criteria (h)",
+     "covered_by": [
+      "CMCCBNP-73-TC-103"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "AP020 Queue Email Behavior",
+   "source": "Jira CMCCBNP-74",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "Enable or disable email notifications for queue-based approvals.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_020 (CMCCBNP-74) > Acceptance Criteria (a)",
+     "covered_by": [
+      "CMCCBNP-74-TC-101",
+      "CMCCBNP-74-TC-103"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "Control whether emails are sent to queue inboxes or individual members.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_020 (CMCCBNP-74) > Acceptance Criteria (b)",
+     "covered_by": [
+      "CMCCBNP-74-TC-101",
+      "CMCCBNP-74-TC-102",
+      "CMCCBNP-74-TC-105"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "Configure queue-based notification behaviour based on business needs.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_020 (CMCCBNP-74) > Acceptance Criteria (c)",
+     "covered_by": [
+      "CMCCBNP-74-TC-102",
+      "CMCCBNP-74-TC-105"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System ensures approval requests remain accessible in the system even if email notifications are suppressed.",
+     "anchor": "Confluence 'Epic 04 - Approval Process' > Canon_AP_020 (CMCCBNP-74) > Acceptance Criteria (d)",
+     "covered_by": [
+      "CMCCBNP-74-TC-103",
+      "CMCCBNP-74-TC-104"
+     ]
+    }
+   ]
+  }
+ ]
+}

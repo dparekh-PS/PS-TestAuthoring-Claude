@@ -1,0 +1,256 @@
+{
+ "schema": "coverage-1.0",
+ "workbook": "TC-Epic12-MISReports_20260725_v2.xlsx",
+ "features": [
+  {
+   "sheet": "MIS001 Quotes Approval Report",
+   "source": "Confluence Canon_MIS_001 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can run a configured report that lists quotes currently awaiting approval.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_001 (ID placeholder CMCCBNP-12001) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-12001-TC-001",
+      "CMCCBNP-12001-TC-006",
+      "CMCCBNP-12001-TC-008"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see the current approval owner or approver with whom each quote is pending.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_001 (ID placeholder CMCCBNP-12001) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-12001-TC-002",
+      "CMCCBNP-12001-TC-009"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System displays the elapsed time at the current approval step using configured approval reporting fields.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_001 (ID placeholder CMCCBNP-12001) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-12001-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "System displays the total elapsed approval duration for the quote where the configured duration field is available.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_001 (ID placeholder CMCCBNP-12001) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-12001-TC-004",
+      "CMCCBNP-12001-TC-007"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can see the Quote Title and associated Opportunity Name for each quote awaiting approval.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_001 (ID placeholder CMCCBNP-12001) > Acceptance Criteria (criterion 5)",
+     "covered_by": [
+      "CMCCBNP-12001-TC-005"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "MIS002 Quote Comparison",
+   "source": "Confluence Canon_MIS_002 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can tag two or more quotes with the same configured Comparison Group value and run a report filtered by that value.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_002 (ID placeholder CMCCBNP-12002) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-12002-TC-001",
+      "CMCCBNP-12002-TC-005",
+      "CMCCBNP-12002-TC-008"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view quote line items in a comparable report layout grouped by product and quote reference.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_002 (ID placeholder CMCCBNP-12002) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-12002-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "System uses configured conditional formatting to flag price or quantity differences where supported by the report output.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_002 (ID placeholder CMCCBNP-12002) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-12002-TC-003",
+      "CMCCBNP-12002-TC-006"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can export or share the comparison output to support quote approval and review decisions.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_002 (ID placeholder CMCCBNP-12002) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-12002-TC-004",
+      "CMCCBNP-12002-TC-007"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "MIS003 Price List Comparison",
+   "source": "Confluence Canon_MIS_003 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can compare selected price lists using configured report filters or a joined report.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_003 (ID placeholder CMCCBNP-12003) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-12003-TC-001",
+      "CMCCBNP-12003-TC-009"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can view list price for each compared price list in the report output.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_003 (ID placeholder CMCCBNP-12003) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-12003-TC-002"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can view cost where cost data is available through configured fields.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_003 (ID placeholder CMCCBNP-12003) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-12003-TC-003",
+      "CMCCBNP-12003-TC-008"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can compare each product across price lists in a single report output grouped by product code or product name.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_003 (ID placeholder CMCCBNP-12003) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-12003-TC-004",
+      "CMCCBNP-12003-TC-007"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "System flags price or cost variance using configured variance fields or report filters.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_003 (ID placeholder CMCCBNP-12003) > Acceptance Criteria (criterion 5)",
+     "covered_by": [
+      "CMCCBNP-12003-TC-005"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "I can filter or sort the report output by configured variance amount to prioritise review of the largest differences.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_003 (ID placeholder CMCCBNP-12003) > Acceptance Criteria (criterion 6)",
+     "covered_by": [
+      "CMCCBNP-12003-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "MIS004 Service Contracts",
+   "source": "Confluence Canon_MIS_004 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can see Service Contract Start Date on the Salesforce Asset where available.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_004 (ID placeholder CMCCBNP-12004) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-12004-TC-001",
+      "CMCCBNP-12004-TC-007"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "I can see Service Contract End Date on the Salesforce Asset where available.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_004 (ID placeholder CMCCBNP-12004) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-12004-TC-001",
+      "CMCCBNP-12004-TC-007"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can see Service Contract Name on the Salesforce Asset where available.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_004 (ID placeholder CMCCBNP-12004) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-12004-TC-002",
+      "CMCCBNP-12004-TC-007"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can see Service Contract Description or Cover on the Salesforce Asset where available.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_004 (ID placeholder CMCCBNP-12004) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-12004-TC-003",
+      "CMCCBNP-12004-TC-007"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "I can report on service contract coverage information from the Asset.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_004 (ID placeholder CMCCBNP-12004) > Acceptance Criteria (criterion 5)",
+     "covered_by": [
+      "CMCCBNP-12004-TC-004",
+      "CMCCBNP-12004-TC-008"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "System makes the configured Service Contract fields available for customer-facing reporting, subject to sharing and field-level security.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_004 (ID placeholder CMCCBNP-12004) > Acceptance Criteria (criterion 6)",
+     "covered_by": [
+      "CMCCBNP-12004-TC-005",
+      "CMCCBNP-12004-TC-006"
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "MIS005 Purchase History",
+   "source": "Confluence Canon_MIS_005 (Jira key TBD)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "I can run purchase history reporting sourced from Orders and Order Lines.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_005 (ID placeholder CMCCBNP-12005) > Acceptance Criteria (criterion 1)",
+     "covered_by": [
+      "CMCCBNP-12005-TC-001",
+      "CMCCBNP-12005-TC-007"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "System shows the locked snapshot of what was ordered or delivered once the Order is activated.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_005 (ID placeholder CMCCBNP-12005) > Acceptance Criteria (criterion 2)",
+     "covered_by": [
+      "CMCCBNP-12005-TC-002",
+      "CMCCBNP-12005-TC-005",
+      "CMCCBNP-12005-TC-006"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "I can use Order and Order Line data for historical purchase reporting without relying solely on Assets.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_005 (ID placeholder CMCCBNP-12005) > Acceptance Criteria (criterion 3)",
+     "covered_by": [
+      "CMCCBNP-12005-TC-003"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "I can see order header and order line detail relevant to purchase history in the report output.",
+     "anchor": "Confluence 'Epic 12 - MIS / Reports' (5046698155) > Canon_MIS_005 (ID placeholder CMCCBNP-12005) > Acceptance Criteria (criterion 4)",
+     "covered_by": [
+      "CMCCBNP-12005-TC-004"
+     ]
+    }
+   ]
+  }
+ ]
+}

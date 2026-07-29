@@ -1,0 +1,84 @@
+{
+ "schema": "coverage-1.0",
+ "workbook": "TC-SAMP-166_20260729.xlsx",
+ "features": [
+  {
+   "sheet": "QPN-008 PM Consolidated Email",
+   "source": "Jira SAMP-166 (QPN-008) + Confluence 'CPQ Quote Process & Notifications' (4962156562) and 'Quote Process and Notifications' (4962156578)",
+   "acceptance_criteria": [
+    {
+     "id": "AC-a",
+     "text": "PMs receive one consolidated approval email per quote even when multiple line items require PM approval; duplicate or per-line-item emails are avoided.",
+     "anchor": "Jira SAMP-166 description ('consolidated approval notifications ... not overwhelmed with multiple emails') + Confluence QPN-008 (4962156562) Acceptance Criteria ('one consolidated email per quote ... Duplicate or repeated emails for each line item are avoided').",
+     "covered_by": [
+      "SAMP-166-TC-016",
+      "SAMP-166-TC-022",
+      "SAMP-166-TC-024"
+     ]
+    },
+    {
+     "id": "AC-b",
+     "text": "The consolidated email contains only the line items belonging to the PM's own CBU (segmented F115/F116/F117 by CNG_CBU prefix Q101/Q102/Q103).",
+     "anchor": "Jira SAMP-166 description ('Cart Line details belonging to their respective CBU ... approver for F115 CBU Cart lines for F115 needs to be added') + Confluence tech design TC1-83/84 (4962156578) CBU segmentation.",
+     "covered_by": [
+      "SAMP-166-TC-017",
+      "SAMP-166-TC-023"
+     ]
+    },
+    {
+     "id": "AC-c",
+     "text": "When the PM's CBU line count is at or below the threshold, the email shows a detailed table with columns Part Number, Customer Part Number, Brand, BG, MCP, PM Price, Approved Price.",
+     "anchor": "Jira SAMP-166 description (detail table columns + 'If Cart consists of lines less than 60 or equal to 60, we will the details in detail below').",
+     "covered_by": [
+      "SAMP-166-TC-016",
+      "SAMP-166-TC-018",
+      "SAMP-166-TC-020"
+     ]
+    },
+    {
+     "id": "AC-d",
+     "text": "When the PM's CBU line count exceeds the threshold, the email shows only the Quote Link and no detailed table.",
+     "anchor": "Jira SAMP-166 description ('If the lines exceed 60 lines in the cart the email should only show the Quote Link') + Confluence tech design TC1-83/84 (F115ShowQuoteLink).",
+     "covered_by": [
+      "SAMP-166-TC-019",
+      "SAMP-166-TC-021"
+     ]
+    },
+    {
+     "id": "AC-e",
+     "text": "The email includes a link to the approval screen showing only the PM-relevant line items, along with the Customer name and Quote reference.",
+     "anchor": "Confluence QPN-008 (4962156562) Acceptance Criteria ('includes a link to the approval screen showing only the PM-relevant line items'; lists 'Customer name, Quote reference').",
+     "covered_by": [
+      "SAMP-166-TC-018",
+      "SAMP-166-TC-023"
+     ]
+    },
+    {
+     "id": "AC-f",
+     "text": "The line-count threshold is inclusive: exactly at the threshold shows the detail table, and one line above switches to the Quote Link only.",
+     "anchor": "Jira SAMP-166 description ('less than 60 or equal to 60 ... details in detail' vs 'exceed 60 lines ... only show the Quote Link').",
+     "covered_by": [
+      "SAMP-166-TC-020",
+      "SAMP-166-TC-021"
+     ]
+    },
+    {
+     "id": "AC-g",
+     "text": "The consolidated PM notification is triggered only for PM approval requests (approval request Name = 'PM Approval'), not for Sales Manager approvals.",
+     "anchor": "Confluence tech design TC1-83/84 (4962156578): 'Approval type is determined using approvalRequest[Name], where PM Approval activates PM-specific processing ... any other value is treated as SM approval logic'.",
+     "covered_by": [
+      "SAMP-166-TC-024"
+     ]
+    },
+    {
+     "id": "AC-h",
+     "text": "Email template selection follows approval status: Assigned uses the Assignment template and Reassigned uses the Reassignment template.",
+     "anchor": "Confluence tech design TC1-83/84 (4962156578): 'status Assigned triggers the Assignment email template and status Reassigned triggers the Reassignment email template'.",
+     "covered_by": [
+      "SAMP-166-TC-025"
+     ]
+    }
+   ]
+  }
+ ]
+}
