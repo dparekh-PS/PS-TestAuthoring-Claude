@@ -1,13 +1,21 @@
 {
  "schema": "onedrive-folders-1.0",
- "description": "Per-project OneDrive delivery target, resolved once via a real Microsoft Graph lookup (never guessed). Maps ProjectKey -> the drive_id/item_id of that project's Generated_TestCases folder. Populated by upload_to_onedrive.py on first successful delivery for a project; add a row by performing the same real lookup for a new project.",
+ "description": "Per-project OneDrive delivery target, resolved once via a real Microsoft Graph lookup (never guessed). Maps ProjectKey -> the drive_id/item_id of that project's delivery subfolder under 'Claude - Test cases'. Add a row by performing the same real lookup for a new project.",
  "projects": {
   "SAMP": {
    "drive_id": "b!jpkPJqztsUWfZvLwkvmOIt1D5lwrSR1Po3ZpiYHpykvP4XwrpMm8RJUSbCNUtYyv",
-   "item_id": "01CZSDVRYEC6GXJS2E3ZD3MNL6F7ZYTQUE",
-   "path": "PS-Test Authoring/PS-Test Authoring/Generated_TestCases",
+   "item_id": "01CZSDVR76RLUR2JJHPVAKZ2CSNWNTJB4W",
+   "path": "Documents/Claude - Test cases/SAMP",
    "owner": "dparekh@conga.com",
-   "resolved_via": "Microsoft Graph: GET /users/{owner}/drive, then /root/children, then nested folder traversal to Generated_TestCases",
+   "resolved_via": "Microsoft Graph: GET /drives/{id}/root:/Documents/Claude - Test cases, then /children -> SAMP subfolder",
+   "resolved_date": "2026-07-29"
+  },
+  "CRM": {
+   "drive_id": "b!jpkPJqztsUWfZvLwkvmOIt1D5lwrSR1Po3ZpiYHpykvP4XwrpMm8RJUSbCNUtYyv",
+   "item_id": "01CZSDVRZKGGFFFL7KM5CLMV4HJPGFU67B",
+   "path": "Documents/Claude - Test cases/CRM",
+   "owner": "dparekh@conga.com",
+   "resolved_via": "Microsoft Graph: GET /drives/{id}/root:/Documents/Claude - Test cases, then /children -> CRM subfolder",
    "resolved_date": "2026-07-29"
   }
  }
